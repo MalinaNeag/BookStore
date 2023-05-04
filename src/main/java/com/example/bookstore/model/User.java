@@ -1,5 +1,5 @@
 package com.example.bookstore.model;
-
+import static com.example.bookstore.services.Encoding.encodePassword;
 
 public class User {
 
@@ -12,7 +12,7 @@ public class User {
 
     public User(String username, String password, String role) {
         this.username = username;
-        this.password = password;
+        this.password = encodePassword(username, password);;
         this.role = role;
     }
 

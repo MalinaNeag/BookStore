@@ -1,25 +1,5 @@
 [ {
-  "username" : "Anna",
-  "password" : "lala",
-  "role" : "customer"
-}, {
-  "username" : "Diana",
-  "password" : "lala",
-  "role" : "customer"
-}, {
-  "username" : "Maria",
-  "password" : "lalala",
-  "role" : "customer"
-}, {
-  "username" : "lala",
-  "password" : "cas",
+  "username" : "manager",
+  "password" : "����\u0019�أ\u0003p�\u0007\u0007\u0003��q%\u0010�$��`��s��\u0018\u0019�l�!��\n/�2a\u0017?�f�J)��� �\u000Fn���\u001B�.B�",
   "role" : "manager"
-}, {
-  "username" : "user",
-  "password" : "user",
-  "role" : "customer"
-}, {
-  "username" : "user2",
-  "password" : "user2",
-  "role" : "customer"
 } ]
