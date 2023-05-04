@@ -25,6 +25,11 @@ public class UsersList {
         }
     }
 
+    public static boolean checkUserCredentials(User user) {
+        return users.contains(user);
+    }
+
+
     @Override
     public String toString() {
         return users.toString();
