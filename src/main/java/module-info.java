@@ -1,8 +1,10 @@
-module com.example.bookstore {
+module com.example.onlineshop {
     requires javafx.controls;
     requires javafx.fxml;
     requires json;
     requires com.fasterxml.jackson.databind;
+    requires java.desktop;
+    requires javafx.swing;
 
 
     opens com.example.bookstore to javafx.fxml;

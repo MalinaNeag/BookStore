@@ -23,9 +23,9 @@
                 <Font name="Cambria" size="12.0" />
             </font>
         </Button>
-        <ImageView fitHeight="223.0" fitWidth="216.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="250.0" fitWidth="244.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-25.0" AnchorPane.rightAnchor="645.0">
             <image>
-                <Image url="@img/BookStore2.png" />
+                <Image url="@img/SelfImprovement.jpeg" />
             </image>
         </ImageView>
         <Pane layoutX="221.0" layoutY="-8.0" prefHeight="124.0" prefWidth="636.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;">
@@ -42,7 +42,7 @@
         <ImageView fx:id="image2" fitHeight="100.0" fitWidth="100.0" layoutX="489.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true" />
         <ImageView fx:id="image6" fitHeight="100.0" fitWidth="100.0" layoutX="669.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true" />
         <ImageView fx:id="image5" fitHeight="100.0" fitWidth="100.0" layoutX="489.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="image4" fitHeight="100.0" fitWidth="100.0" layoutX="300.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="image4" fitHeight="100.0" fitWidth="100.0" layoutX="300.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-25.0" />
         <ImageView fx:id="image9" fitHeight="100.0" fitWidth="100.0" layoutX="670.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
         <ImageView fx:id="image8" fitHeight="100.0" fitWidth="100.0" layoutX="489.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
         <ImageView fx:id="image7" fitHeight="100.0" fitWidth="100.0" layoutX="300.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />

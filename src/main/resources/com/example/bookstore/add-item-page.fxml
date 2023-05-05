@@ -5,6 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
+
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="856.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookstore.controllers.AddItemController">
     <children>
         <SplitPane layoutX="-6.0" prefHeight="601.0" prefWidth="228.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;" />
