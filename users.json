@@ -2,4 +2,8 @@
   "username" : "manager",
   "password" : "����\u0019�أ\u0003p�\u0007\u0007\u0003��q%\u0010�$��`��s��\u0018\u0019�l�!��\n/�2a\u0017?�f�J)��� �\u000Fn���\u001B�.B�",
   "role" : "manager"
+}, {
+  "username" : "customer",
+  "password" : "�\fu��!��;xƂ�ub�\u0019\u0014����0\u001C�Q���\rF.\u0018+9T�w��'�rh�¶�oU3�>c\u001B��W\u0006��\n",
+  "role" : "customer"
 } ]
