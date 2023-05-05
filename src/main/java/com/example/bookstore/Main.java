@@ -20,7 +20,7 @@ public class Main extends Application {
         stg=primaryStage;
         primaryStage.setResizable(false);
         Parent root = FXMLLoader.load(getClass().getResource("login-page.fxml"));
-        primaryStage.setTitle("Hello!");
+        primaryStage.setTitle("- The Story Shop -");
         primaryStage.setScene(new Scene(root,856,601));
         primaryStage.show();
     }
