@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="View Category Task done">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/AddItemGirl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-42 Created UI for Catalogue Item Addition">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/ItemsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/services/AddItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/add-item-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/add-item-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Class" />
         <option value="HTTP Request" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,7 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/zapar/IdeaProjects/BookStore/src/main/resources/com/example/bookstore/img",
+    "last_opened_file_path": "D:/Online-Shop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -123,7 +122,7 @@
       <workItem from="1683230949083" duration="4716000" />
       <workItem from="1683273665874" duration="9202000" />
       <workItem from="1683285184519" duration="5504000" />
-      <workItem from="1683291660954" duration="7004000" />
+      <workItem from="1683291660954" duration="8091000" />
     </task>
     <task id="LOCAL-00001" summary="Updated configurations">
       <created>1683184656225</created>
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683294481212</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="BS-42 Created UI for Catalogue Item Addition">
+      <created>1683303576358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683303576358</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +186,8 @@
     <MESSAGE value="Updated configurations" />
     <MESSAGE value="Finished Login Task" />
     <MESSAGE value="View Category Task done" />
-    <option name="LAST_COMMIT_MESSAGE" value="View Category Task done" />
+    <MESSAGE value="BS-42 Created UI for Catalogue Item Addition" />
+    <option name="LAST_COMMIT_MESSAGE" value="BS-42 Created UI for Catalogue Item Addition" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
