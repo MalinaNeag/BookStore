@@ -1,6 +1,16 @@
 [ {
-  "name" : "Harry Potter",
-  "price" : "50",
-  "imgPath" : "Harry_Potter_and_the_Philosopher's_Stone_Book_Cover.jpg",
+  "name" : "It Ends With Us",
+  "price" : "52",
+  "imgPath" : "Romance_ItEndsWithUs.jpeg",
+  "category" : "romance"
+}, {
+  "name" : "Harry Potter And The Philosopher`s Stone",
+  "price" : "40",
+  "imgPath" : "Fantasy_HarryPotterAndThePhilosophersStone.jpg",
   "category" : "fantasy"
+}, {
+  "name" : "The Killing Wind",
+  "price" : "45",
+  "imgPath" : "Crime_TheKillingWind.jpg",
+  "category" : "crime"
 } ]

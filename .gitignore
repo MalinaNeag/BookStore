@@ -2,7 +2,9 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-savedImage*.png
+*.jpeg
+*.jpg
+*.png
 
 ### IntelliJ IDEA ###
 .idea/encodings.xml

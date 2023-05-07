@@ -56,6 +56,7 @@ public class AddItemController implements Initializable {
 
     private String[] categories={"fantasy","crime","drama","self-improvement", "romance", "vintage"};
 
+    private File f;
     private boolean imageUploaded=false;
 
 
@@ -79,13 +80,14 @@ public class AddItemController implements Initializable {
     void uploadChoosenImage(ActionEvent event) {
         FileChooser fc = new FileChooser();
         fc.getExtensionFilters().add(new FileChooser.ExtensionFilter("Images", firstFile));
-        File f = fc.showOpenDialog(null);
+        f = fc.showOpenDialog(null);
 
 
         File outputfile;
         try {
             BufferedImage bi = ImageIO.read(f);  // retrieve image
-            outputfile = new File("savedImage"+ (ItemsList.getItems().size()+1)+".png");
+            System.out.println(f.getName());
+            outputfile = new File(f.getName());
             ImageIO.write(bi, "png", outputfile);
             imageUploaded=true;
         } catch (IOException e) {
@@ -94,10 +96,10 @@ public class AddItemController implements Initializable {
     }
     public void addItemInList() throws IOException {
         if(itemName.getText().isEmpty()){
-            wrongInput.setText("Please give a Name!");
+            wrongInput.setText("Please give a name!");
         }
         else if(itemPrice.getText().isEmpty()){
-            wrongInput.setText("Please give a Price!");
+            wrongInput.setText("Please give a price!");
         }
         else if(!imageUploaded){
             wrongInput.setText("Please give an image!");
@@ -107,7 +109,7 @@ public class AddItemController implements Initializable {
         }
 
         else {
-            AddItem.addItem(itemName.getText(),itemPrice.getText(),"savedImage"+ (ItemsList.getItems().size()+1)+".png",itemCategory.getValue());
+            AddItem.addItem(itemName.getText(),itemPrice.getText(),f.getName(),itemCategory.getValue());
             wrongInput.setText("Item added successfully");
             if(itemCategory.getValue().equals("fantasy")) {
                 Main m = new Main();
