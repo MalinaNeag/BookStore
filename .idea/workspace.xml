@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-44 Integrate Catalogue Item Addition with the UI">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-8 Finished Add Item Task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Harry_Potter_and_the_Philosopher's_Stone_Book_Cover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/AddItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/AddItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-manager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-manager.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/cart-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/cart-page.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/zapar/IdeaProjects/BookStore",
+    "last_opened_file_path": "C:/Users/zapar/IdeaProjects/BookStore/src/main/resources/com/example/bookstore/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,9 +79,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zapar\IdeaProjects\BookStore\src\main\resources\com\example\bookstore\img" />
       <recent name="C:\Users\zapar\IdeaProjects\BookStore" />
       <recent name="C:\Users\zapar\IdeaProjects\BookStore\src" />
-      <recent name="C:\Users\zapar\IdeaProjects\BookStore\src\main\resources\com\example\bookstore\img" />
       <recent name="C:\Users\zapar\IdeaProjects\BookStore\src\main\resources" />
       <recent name="C:\Users\zapar\IdeaProjects\BookStore\src\main\resources\com\example\bookstore" />
     </key>
@@ -133,7 +128,9 @@
       <workItem from="1683328512700" duration="363000" />
       <workItem from="1683377017913" duration="260000" />
       <workItem from="1683397994600" duration="26000" />
-      <workItem from="1683464810246" duration="2132000" />
+      <workItem from="1683464810246" duration="2680000" />
+      <workItem from="1683474936486" duration="243000" />
+      <workItem from="1683475193100" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="Updated configurations">
       <created>1683184656225</created>
@@ -177,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683322596093</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="BS-8 Finished Add Item Task">
+      <created>1683467309259</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683467309259</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +198,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="BS-3-As-a-user-I-want-to-able-to-view-all-the-categories-available-on-the-app" />
+                        <option value="BS-4-As-a-client-I-want-to-be-able-to-add-items-to-my-cart" />
                       </list>
                     </value>
                   </entry>
@@ -214,7 +218,8 @@
     <MESSAGE value="BS-42 Created UI for Catalogue Item Addition" />
     <MESSAGE value="BS-43 Implement Catalogue Item Addition Functionality" />
     <MESSAGE value="BS-44 Integrate Catalogue Item Addition with the UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="BS-44 Integrate Catalogue Item Addition with the UI" />
+    <MESSAGE value="BS-44 Fixed bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="BS-44 Fixed bugs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
