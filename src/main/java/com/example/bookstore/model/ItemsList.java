@@ -25,12 +25,27 @@ public class ItemsList {
     private static int vintageNo;
 
     public ItemsList() {
-        fantasyNo=0;
-        crimeNo=0;
-        dramaNo=0;
-        romanceNo=0;
-        selfNo=0;
-        vintageNo=0;
+        fantasyNo = 0;
+        crimeNo = 0;
+        dramaNo = 0;
+        romanceNo = 0;
+        selfNo = 0;
+        vintageNo = 0;
+    }
+
+    public static void decreaseCategoryNo(String category){
+        if(category.equals("crime") && crimeNo!=0)
+            crimeNo--;
+        else if(category.equals("fantasy") && fantasyNo!=0)
+            fantasyNo--;
+        else if(category.equals("drama") && dramaNo!=0)
+            dramaNo--;
+        else if(category.equals("romance") && romanceNo!=0)
+            romanceNo--;
+        else if(category.equals("self") && selfNo!=0)
+            selfNo--;
+        else if(category.equals("vintage") && vintageNo!=0)
+            vintageNo--;
     }
 
     private static Image readImage(String path) {
