@@ -155,7 +155,7 @@ public class VintageBookPageManagerController {
     }
 
     public void loadImage(Item item, Image img){
-        if(item.getCategory().equals("drama")) {
+        if(item.getCategory().equals("vintage")) {
             vintageNo++;
             switch(vintageNo){
                 case 1: image1.setImage(img);

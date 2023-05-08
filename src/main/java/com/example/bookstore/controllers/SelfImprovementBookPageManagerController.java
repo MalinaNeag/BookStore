@@ -155,7 +155,7 @@ public class SelfImprovementBookPageManagerController {
     }
 
     public void loadImage(Item item, Image img){
-        if(item.getCategory().equals("drama")) {
+        if(item.getCategory().equals("self-improvement")) {
             selfNo++;
             switch(selfNo){
                 case 1: image1.setImage(img);

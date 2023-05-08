@@ -42,7 +42,7 @@ public class ItemsList {
             dramaNo--;
         else if(category.equals("romance") && romanceNo!=0)
             romanceNo--;
-        else if(category.equals("self") && selfNo!=0)
+        else if(category.equals("self-improvement") && selfNo!=0)
             selfNo--;
         else if(category.equals("vintage") && vintageNo!=0)
             vintageNo--;
