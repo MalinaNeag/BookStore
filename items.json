@@ -1,31 +1,46 @@
 [ {
   "name" : "It Ends With Us",
   "price" : "52",
-  "imgPath" : "Romance_ItEndsWithUs.jpeg",
+  "imgPath" : "images/romance/Romance_ItEndsWithUs.jpeg",
   "category" : "romance"
 }, {
   "name" : "Harry Potter And The Philosopher`s Stone",
   "price" : "40",
-  "imgPath" : "Fantasy_HarryPotterAndThePhilosophersStone.jpg",
+  "imgPath" : "images/fantasy/Fantasy_HarryPotterAndThePhilosophersStone.jpg",
   "category" : "fantasy"
 }, {
   "name" : "The Killing Wind",
   "price" : "45",
-  "imgPath" : "Crime_TheKillingWind.jpg",
+  "imgPath" : "images/crime/Crime_TheKillingWind.jpg",
   "category" : "crime"
 }, {
   "name" : "E. A. Poe",
   "price" : "40",
-  "imgPath" : "Vintage_EAPoe.jpg",
+  "imgPath" : "images/vintage/Vintage_EAPoe.jpg",
   "category" : "vintage"
 }, {
   "name" : "The Subtle Art",
   "price" : "30",
-  "imgPath" : "SelfImprovement_TheSubtleArt.jpg",
+  "imgPath" : "images/self-improvement/SelfImprovement_TheSubtleArt.jpg",
   "category" : "self-improvement"
 }, {
   "name" : "Hamlet",
   "price" : "45",
-  "imgPath" : "Drama_Hamlet.jpg",
+  "imgPath" : "images/drama/Drama_Hamlet.jpg",
   "category" : "drama"
+}, {
+  "name" : "The Way of Kings",
+  "price" : "60",
+  "imgPath" : "images/fantasy/TheWayOfKings.png",
+  "category" : "fantasy"
+}, {
+  "name" : "The Fellowship of the Ring",
+  "price" : "30",
+  "imgPath" : "images/fantasy/fellowshipOfTheRing.jpg",
+  "category" : "fantasy"
+}, {
+  "name" : "Sherlock Holmes",
+  "price" : "37",
+  "imgPath" : "images/crime/SherlockHolmes.jpg",
+  "category" : "crime"
 } ]

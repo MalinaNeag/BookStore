@@ -87,7 +87,7 @@ public class AddItemController implements Initializable {
         try {
             BufferedImage bi = ImageIO.read(f);  // retrieve image
             System.out.println(f.getName());
-            outputfile = new File(f.getName());
+            outputfile = new File("images/" + itemCategory.getValue() + "/" + f.getName());
             ImageIO.write(bi, "png", outputfile);
             imageUploaded=true;
         } catch (IOException e) {

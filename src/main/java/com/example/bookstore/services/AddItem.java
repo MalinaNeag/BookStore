@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class AddItem {
     public static void addItem(String name, String price, String imgPath,String category) throws IOException {
-        ItemsList.addItem(new Item(name,price,imgPath,category));
+        ItemsList.addItem(new Item(name,price,"images/" + category + "/" + imgPath,category));
         persistItems();
     }
 
