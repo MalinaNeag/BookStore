@@ -11,6 +11,7 @@ import javafx.scene.control.Button;
 import java.io.IOException;
 import com.example.bookstore.model.Item;
 import com.example.bookstore.model.ItemsList;
+import com.example.bookstore.services.AddItem;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
@@ -33,7 +34,6 @@ public class SelfImprovementBookPageManagerController {
 
     @FXML
     private ImageView image1;
-
     @FXML
     private ImageView image2;
     @FXML
@@ -51,7 +51,14 @@ public class SelfImprovementBookPageManagerController {
     @FXML
     private ImageView image9;
 
+    ArrayList<Item> selfBooks = new ArrayList<>(9);
+    private int selfNo = 0;
+
     public SelfImprovementBookPageManagerController() {
+    }
+
+    public void initialize(){
+        loadImages();
     }
 
     public void goToHomePage(ActionEvent event) throws IOException {
@@ -74,19 +81,73 @@ public class SelfImprovementBookPageManagerController {
         m.changeScene("add-item-page.fxml");
     }
 
-    public void deleteItem(){
+    private void deleteItem(int index)throws IOException{
+        ItemsList.getItems().remove(selfBooks.get(index));
+        selfBooks.remove(index);
+        selfNo = 0;
+        ItemsList.decreaseCategoryNo("self");
+        Main m = new Main();
+        m.changeScene("self_improvement-page-manager.fxml");
+        loadImages();
+        AddItem.persistItems();
+    }
 
+    public void deleteItem1() throws IOException {
+        ItemsList.getImages().remove(image1.getImage());
+        deleteItem(0);
+    }
+
+    public void deleteItem2() throws IOException {
+        ItemsList.getImages().remove(image2.getImage());
+        deleteItem(1);
+    }
+
+    public void deleteItem3() throws IOException {
+        ItemsList.getImages().remove(image3.getImage());
+        deleteItem(2);
+    }
+
+    public void deleteItem4() throws IOException {
+        ItemsList.getImages().remove(image4.getImage());
+        deleteItem(3);
+    }
+
+    public void deleteItem5() throws IOException {
+        ItemsList.getImages().remove(image5.getImage());
+        deleteItem(4);
+    }
+
+    public void deleteItem6() throws IOException {
+        ItemsList.getImages().remove(image6.getImage());
+        deleteItem(5);
+    }
+
+    public void deleteItem7() throws IOException {
+        ItemsList.getImages().remove(image7.getImage());
+        deleteItem(6);
+    }
+
+    public void deleteItem8() throws IOException {
+        ItemsList.getImages().remove(image8.getImage());
+        deleteItem(7);
+    }
+
+    public void deleteItem9() throws IOException {
+        ItemsList.getImages().remove(image9.getImage());
+        deleteItem(8);
     }
 
     public void editItem(){
 
     }
+    /*private static DramaBookPageManagerController instance = null;
 
-    public void initialize(){
-        loadImages();
-    }
+    public static DramaBookPageManagerController getInstance() {
+        return instance;
+    }*/
 
-    private int selfNo=0;
+
+
     private void loadImages(){
         int l = ItemsList.getImages().size();
         for (int i = 0; i < l; i++)
@@ -98,22 +159,40 @@ public class SelfImprovementBookPageManagerController {
             selfNo++;
             switch(selfNo){
                 case 1: image1.setImage(img);
+                    delete1.setVisible(true);
+                    selfBooks.add(0,item);
                     break;
                 case 2: image2.setImage(img);
+                    delete2.setVisible(true);
+                    selfBooks.add(1,item);
                     break;
                 case 3: image3.setImage(img);
+                    delete3.setVisible(true);
+                    selfBooks.add(2,item);
                     break;
                 case 4: image4.setImage(img);
+                    delete4.setVisible(true);
+                    selfBooks.add(3,item);
                     break;
                 case 5: image5.setImage(img);
+                    delete5.setVisible(true);
+                    selfBooks.add(4,item);
                     break;
                 case 6: image6.setImage(img);
+                    delete6.setVisible(true);
+                    selfBooks.add(5,item);
                     break;
                 case 7: image7.setImage(img);
+                    delete7.setVisible(true);
+                    selfBooks.add(6,item);
                     break;
                 case 8: image8.setImage(img);
+                    delete8.setVisible(true);
+                    selfBooks.add(7,item);
                     break;
                 case 9: image9.setImage(img);
+                    delete9.setVisible(true);
+                    selfBooks.add(8,item);
                     break;
                 default: throw new NullPointerException();
             }

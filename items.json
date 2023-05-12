@@ -13,4 +13,19 @@
   "price" : "45",
   "imgPath" : "Crime_TheKillingWind.jpg",
   "category" : "crime"
+}, {
+  "name" : "E. A. Poe",
+  "price" : "40",
+  "imgPath" : "Vintage_EAPoe.jpg",
+  "category" : "vintage"
+}, {
+  "name" : "The Subtle Art",
+  "price" : "30",
+  "imgPath" : "SelfImprovement_TheSubtleArt.jpg",
+  "category" : "self-improvement"
+}, {
+  "name" : "Hamlet",
+  "price" : "45",
+  "imgPath" : "Drama_Hamlet.jpg",
+  "category" : "drama"
 } ]
