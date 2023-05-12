@@ -7,16 +7,18 @@ public class Item {
     private String price;
     private String imgPath;
     private String category;
+    private String author;
 
     public Item(){
 
     }
 
-    public Item(String name, String price, String imgPath,String category) {
+    public Item(String name, String price, String imgPath,String category, String author) {
         this.name = name;
         this.price = price;
         this.imgPath = imgPath;
-        this.category=category;
+        this.category = category;
+        this.author = author;
     }
 
     public String getName() {
@@ -49,5 +51,13 @@ public class Item {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 }

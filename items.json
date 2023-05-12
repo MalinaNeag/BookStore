@@ -2,45 +2,96 @@
   "name" : "It Ends With Us",
   "price" : "52",
   "imgPath" : "images/romance/Romance_ItEndsWithUs.jpeg",
-  "category" : "romance"
+  "category" : "romance",
+  "author" : "Coleen Hoover"
 }, {
   "name" : "Harry Potter And The Philosopher`s Stone",
   "price" : "40",
   "imgPath" : "images/fantasy/Fantasy_HarryPotterAndThePhilosophersStone.jpg",
-  "category" : "fantasy"
-}, {
-  "name" : "The Killing Wind",
-  "price" : "45",
-  "imgPath" : "images/crime/Crime_TheKillingWind.jpg",
-  "category" : "crime"
+  "category" : "fantasy",
+  "author" : "J. K. Rowling"
 }, {
   "name" : "E. A. Poe",
   "price" : "40",
   "imgPath" : "images/vintage/Vintage_EAPoe.jpg",
-  "category" : "vintage"
+  "category" : "vintage",
+  "author" : "E. A. Poe"
 }, {
   "name" : "The Subtle Art",
   "price" : "30",
   "imgPath" : "images/self-improvement/SelfImprovement_TheSubtleArt.jpg",
-  "category" : "self-improvement"
+  "category" : "self-improvement",
+  "author" : "Mark Manson"
 }, {
   "name" : "Hamlet",
   "price" : "45",
   "imgPath" : "images/drama/Drama_Hamlet.jpg",
-  "category" : "drama"
+  "category" : "drama",
+  "author" : "W. Shakespeare"
 }, {
   "name" : "The Way of Kings",
   "price" : "60",
   "imgPath" : "images/fantasy/TheWayOfKings.png",
-  "category" : "fantasy"
+  "category" : "fantasy",
+  "author" : "Brandon Sanderson"
 }, {
   "name" : "The Fellowship of the Ring",
   "price" : "30",
   "imgPath" : "images/fantasy/fellowshipOfTheRing.jpg",
-  "category" : "fantasy"
+  "category" : "fantasy",
+  "author" : "J. R. R. Tolkien"
 }, {
-  "name" : "Sherlock Holmes",
-  "price" : "37",
+  "name" : "The Silence of the Lambs",
+  "price" : "35",
+  "imgPath" : "images/crime/SilenceOfTheLambs.jpg",
+  "category" : "crime",
+  "author" : "Thomas Harris"
+}, {
+  "name" : "The Godfather",
+  "price" : "45",
+  "imgPath" : "images/crime/Godfather.png",
+  "category" : "crime",
+  "author" : "Mario Puzo"
+}, {
+  "name" : "The Girl with the Dragon Tattoo",
+  "price" : "52",
+  "imgPath" : "images/crime/TheGirlWithTheDragonTattoo.jpg",
+  "category" : "crime",
+  "author" : "Stieg Larsson"
+}, {
+  "name" : "The Big Sleep",
+  "price" : "32",
+  "imgPath" : "images/crime/TheBigSleep.jpg",
+  "category" : "crime",
+  "author" : "Raymond Chandler"
+}, {
+  "name" : "In Cold Blood",
+  "price" : "40",
+  "imgPath" : "images/crime/InColdBlood.jpg",
+  "category" : "crime",
+  "author" : "Truman Capote"
+}, {
+  "name" : "The Adventures of  Sherlock Holmes",
+  "price" : "28",
   "imgPath" : "images/crime/SherlockHolmes.jpg",
-  "category" : "crime"
+  "category" : "crime",
+  "author" : "Arthur Conan Doyle"
+}, {
+  "name" : "The Maltese Falcon",
+  "price" : "42",
+  "imgPath" : "images/crime/The_Maltese_Falcon.jpg",
+  "category" : "crime",
+  "author" : "Dashiell Hammett"
+}, {
+  "name" : "The Murder of Roger Ackroyd",
+  "price" : "36",
+  "imgPath" : "images/crime/TheMurderOfRogerAckroyd.jpg",
+  "category" : "crime",
+  "author" : "Agatha Christie"
+}, {
+  "name" : "Gone Girl",
+  "price" : "43",
+  "imgPath" : "images/crime/GoneGirl.jpg",
+  "category" : "crime",
+  "author" : "Gillian Flynn"
 } ]

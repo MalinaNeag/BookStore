@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-45 Created UI for Catalogue Item Deletion">
-      <change afterPath="$PROJECT_DIR$/images/crime/Crime_TheKillingWind.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/crime/SherlockHolmes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/drama/Drama_Hamlet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fantasy/Fantasy_HarryPotterAndThePhilosophersStone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fantasy/TheWayOfKings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fantasy/fellowshipOfTheRing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/romance/Romance_ItEndsWithUs.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/self-improvement/SelfImprovement_TheSubtleArt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/vintage/Vintage_EAPoe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-56 Formatted folder for existing and newly added books">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/DramaShake.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/items.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/AddItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/AddItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/services/AddItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/services/AddItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/add-item-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/add-item-page.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683580421842</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="BS-56 Formatted folder for existing and newly added books">
+      <created>1683889027634</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683889027634</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +233,8 @@
     <MESSAGE value="BS-43 Implement Catalogue Item Addition Functionality" />
     <MESSAGE value="BS-44 Integrate Catalogue Item Addition with the UI" />
     <MESSAGE value="BS-46 Implemented Catalogue Item Deletion Functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="BS-46 Implemented Catalogue Item Deletion Functionality" />
+    <MESSAGE value="BS-56 Formatted folder for existing and newly added books" />
+    <option name="LAST_COMMIT_MESSAGE" value="BS-56 Formatted folder for existing and newly added books" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
