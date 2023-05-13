@@ -4,26 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-57 Configured author field for each book">
-      <change afterPath="$PROJECT_DIR$/images/drama/1984.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/drama/Atonement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/drama/CatcherInTheRyes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/drama/TheBookThief.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/drama/TheGreatGatsby.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/drama/TheHelp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/drama/TheKiteRunner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/drama/ThePictureOfDorianGray.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/drama/ToKilAMockingbird.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fantasy/AGameOfThrones.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fantasy/AmericanGods.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fantasy/AssassinApprentice.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fantasy/TheChroniclesOfNarnia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fantasy/TheFinalEmpire.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fantasy/TheNameOfTheWind.jpeg" afterDir="false" />
+    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/ManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-manager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-manager.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CrimeBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CrimeBookPageCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CrimeBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CrimeBookPageManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/DramaBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/DramaBookPageCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/DramaBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/DramaBookPageManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/FantasyBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/FantasyBookPageCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/FantasyBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/FantasyBookPageManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/RomanceBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/RomanceBookPageCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/RomanceBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/RomanceBookPageManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/SelfImprovementBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/SelfImprovementBookPageCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/SelfImprovementBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/SelfImprovementBookPageManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/VintageBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/VintageBookPageCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/VintageBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/VintageBookPageManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/CartItemsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/CartItemsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/crime-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/crime-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/fantasy-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/fantasy-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/romance-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/romance-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-customer.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +47,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="BS-54-As-a-user-I-want-to-be-able-to-view-all-the-books-available-on-the-app" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,7 +88,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Cristina/OneDrive/Desktop/uni/sem2/sef/project/nemodificat/Online-Shop",
+    "last_opened_file_path": "D:/IdeaProjects/BookStore",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -128,6 +135,7 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +158,8 @@
       <workItem from="1683377017913" duration="260000" />
       <workItem from="1683397994600" duration="26000" />
       <workItem from="1683464810246" duration="2132000" />
+      <workItem from="1683995982641" duration="188000" />
+      <workItem from="1683996223020" duration="5395000" />
     </task>
     <task id="LOCAL-00001" summary="Updated configurations">
       <created>1683184656225</created>
@@ -231,7 +241,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="BS-3-As-a-user-I-want-to-able-to-view-all-the-categories-available-on-the-app" />
+                        <option value="BS-4-As-a-client-I-want-to-be-able-to-add-items-to-my-cart" />
                       </list>
                     </value>
                   </entry>
