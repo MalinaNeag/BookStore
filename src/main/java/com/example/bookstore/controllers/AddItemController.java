@@ -44,6 +44,8 @@ public class AddItemController implements Initializable {
 
     @FXML
     private TextField itemPrice;
+    @FXML
+    private TextField itemAuthor;
 
     @FXML
     private Button addItemButton;
@@ -87,7 +89,7 @@ public class AddItemController implements Initializable {
         try {
             BufferedImage bi = ImageIO.read(f);  // retrieve image
             System.out.println(f.getName());
-            outputfile = new File(f.getName());
+            outputfile = new File("images/" + itemCategory.getValue() + "/" + f.getName());
             ImageIO.write(bi, "png", outputfile);
             imageUploaded=true;
         } catch (IOException e) {
@@ -97,6 +99,9 @@ public class AddItemController implements Initializable {
     public void addItemInList() throws IOException {
         if(itemName.getText().isEmpty()){
             wrongInput.setText("Please give a name!");
+        }
+        else if(itemAuthor.getText().isEmpty()){
+            wrongInput.setText("Please give the author!");
         }
         else if(itemPrice.getText().isEmpty()){
             wrongInput.setText("Please give a price!");
@@ -109,7 +114,7 @@ public class AddItemController implements Initializable {
         }
 
         else {
-            AddItem.addItem(itemName.getText(),itemPrice.getText(),f.getName(),itemCategory.getValue());
+            AddItem.addItem(itemName.getText(),itemPrice.getText(),f.getName(),itemCategory.getValue(), itemAuthor.getText());
             wrongInput.setText("Item added successfully");
             if(itemCategory.getValue().equals("fantasy")) {
                 Main m = new Main();
