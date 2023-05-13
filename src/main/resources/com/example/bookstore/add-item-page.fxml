@@ -43,7 +43,7 @@
             </font>
         </Button>
         <TextField fx:id="itemName" layoutX="464.0" layoutY="252.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;" />
-        <Button fx:id="uploadImage" layoutX="490.0" layoutY="498.0" mnemonicParsing="false" onAction="#uploadChoosenImage" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Upload Image">
+        <Button fx:id="uploadImage" layoutX="490.0" layoutY="498.0" mnemonicParsing="false" onAction="#uploadChosenImage" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Upload Image">
             <font>
                 <Font name="Cambria" size="12.0" />
             </font>

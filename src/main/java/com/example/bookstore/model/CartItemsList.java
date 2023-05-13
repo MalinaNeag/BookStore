@@ -10,6 +10,11 @@ public class CartItemsList {
             cartItemsList.add(newItem);
         }
     }
+
+    public static void removeAllItems(){
+        cartItemsList=new ArrayList<>(5);
+    }
+
     public static String getIdOfItem(int index){
         return cartItemsList.get(index).getName().toString();
     }
