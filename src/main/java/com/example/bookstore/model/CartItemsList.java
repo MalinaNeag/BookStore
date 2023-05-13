@@ -4,11 +4,10 @@ import java.util.ArrayList;
 
 public class CartItemsList {
     private static ArrayList<Item>cartItemsList = new ArrayList<>(5);
-    private static ArrayList<String> sizeList = new ArrayList<>(5);
-    public static void add(Item newItem,String size){
+
+    public static void add(Item newItem){
         if(cartItemsList.size()<5) {
             cartItemsList.add(newItem);
-            sizeList.add(size);
         }
     }
     public static String getIdOfItem(int index){
@@ -16,7 +15,7 @@ public class CartItemsList {
     }
 
     public static String getDetails1(int index){
-        return cartItemsList.get(index).getPrice().toString()+" RON "+"    "+sizeList.get(index).toString();
+        return cartItemsList.get(index).getPrice().toString()+" RON "+"    ";
     }
     public static int getPriceItems(int index){
         int price_new;
