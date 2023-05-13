@@ -1,31 +1,325 @@
 [ {
   "name" : "It Ends With Us",
   "price" : "52",
-  "imgPath" : "Romance_ItEndsWithUs.jpeg",
-  "category" : "romance"
+  "imgPath" : "images/romance/Romance_ItEndsWithUs.jpeg",
+  "category" : "romance",
+  "author" : "Coleen Hoover"
 }, {
   "name" : "Harry Potter And The Philosopher`s Stone",
   "price" : "40",
-  "imgPath" : "Fantasy_HarryPotterAndThePhilosophersStone.jpg",
-  "category" : "fantasy"
-}, {
-  "name" : "The Killing Wind",
-  "price" : "45",
-  "imgPath" : "Crime_TheKillingWind.jpg",
-  "category" : "crime"
+  "imgPath" : "images/fantasy/Fantasy_HarryPotterAndThePhilosophersStone.jpg",
+  "category" : "fantasy",
+  "author" : "J. K. Rowling"
 }, {
   "name" : "E. A. Poe",
   "price" : "40",
-  "imgPath" : "Vintage_EAPoe.jpg",
-  "category" : "vintage"
+  "imgPath" : "images/vintage/Vintage_EAPoe.jpg",
+  "category" : "vintage",
+  "author" : "E. A. Poe"
 }, {
   "name" : "The Subtle Art",
   "price" : "30",
-  "imgPath" : "SelfImprovement_TheSubtleArt.jpg",
-  "category" : "self-improvement"
+  "imgPath" : "images/self-improvement/SelfImprovement_TheSubtleArt.jpg",
+  "category" : "self-improvement",
+  "author" : "Mark Manson"
 }, {
-  "name" : "Hamlet",
+  "name" : "The Way of Kings",
+  "price" : "60",
+  "imgPath" : "images/fantasy/TheWayOfKings.png",
+  "category" : "fantasy",
+  "author" : "Brandon Sanderson"
+}, {
+  "name" : "The Fellowship of the Ring",
+  "price" : "30",
+  "imgPath" : "images/fantasy/fellowshipOfTheRing.jpg",
+  "category" : "fantasy",
+  "author" : "J. R. R. Tolkien"
+}, {
+  "name" : "The Silence of the Lambs",
+  "price" : "35",
+  "imgPath" : "images/crime/SilenceOfTheLambs.jpg",
+  "category" : "crime",
+  "author" : "Thomas Harris"
+}, {
+  "name" : "The Godfather",
   "price" : "45",
-  "imgPath" : "Drama_Hamlet.jpg",
-  "category" : "drama"
+  "imgPath" : "images/crime/Godfather.png",
+  "category" : "crime",
+  "author" : "Mario Puzo"
+}, {
+  "name" : "The Girl with the Dragon Tattoo",
+  "price" : "52",
+  "imgPath" : "images/crime/TheGirlWithTheDragonTattoo.jpg",
+  "category" : "crime",
+  "author" : "Stieg Larsson"
+}, {
+  "name" : "The Big Sleep",
+  "price" : "32",
+  "imgPath" : "images/crime/TheBigSleep.jpg",
+  "category" : "crime",
+  "author" : "Raymond Chandler"
+}, {
+  "name" : "In Cold Blood",
+  "price" : "40",
+  "imgPath" : "images/crime/InColdBlood.jpg",
+  "category" : "crime",
+  "author" : "Truman Capote"
+}, {
+  "name" : "The Adventures of  Sherlock Holmes",
+  "price" : "28",
+  "imgPath" : "images/crime/SherlockHolmes.jpg",
+  "category" : "crime",
+  "author" : "Arthur Conan Doyle"
+}, {
+  "name" : "The Maltese Falcon",
+  "price" : "42",
+  "imgPath" : "images/crime/The_Maltese_Falcon.jpg",
+  "category" : "crime",
+  "author" : "Dashiell Hammett"
+}, {
+  "name" : "The Murder of Roger Ackroyd",
+  "price" : "36",
+  "imgPath" : "images/crime/TheMurderOfRogerAckroyd.jpg",
+  "category" : "crime",
+  "author" : "Agatha Christie"
+}, {
+  "name" : "Gone Girl",
+  "price" : "43",
+  "imgPath" : "images/crime/GoneGirl.jpg",
+  "category" : "crime",
+  "author" : "Gillian Flynn"
+}, {
+  "name" : "The Help",
+  "price" : "33",
+  "imgPath" : "images/drama/TheHelp.jpg",
+  "category" : "drama",
+  "author" : "Kathryn Stockett"
+}, {
+  "name" : "The Picture of Dorian Gray",
+  "price" : "27",
+  "imgPath" : "images/drama/ThePictureOfDorianGray.jpg",
+  "category" : "drama",
+  "author" : "Oscar Wilde"
+}, {
+  "name" : "Atonement",
+  "price" : "46",
+  "imgPath" : "images/drama/Atonement.jpg",
+  "category" : "drama",
+  "author" : "Ian McEwan"
+}, {
+  "name" : "The Book Thief",
+  "price" : "55",
+  "imgPath" : "images/drama/TheBookThief.jpg",
+  "category" : "drama",
+  "author" : "Markus Zusak"
+}, {
+  "name" : "The Kite Runner",
+  "price" : "40",
+  "imgPath" : "images/drama/TheKiteRunner.jpg",
+  "category" : "drama",
+  "author" : "Khaled Hosseini"
+}, {
+  "name" : "1984",
+  "price" : "32",
+  "imgPath" : "images/drama/1984.jpg",
+  "category" : "drama",
+  "author" : "George Orwell"
+}, {
+  "name" : "The Catcher in the Rye",
+  "price" : "37",
+  "imgPath" : "images/drama/CatcherInTheRyes.jpg",
+  "category" : "drama",
+  "author" : "J.D. Salinger"
+}, {
+  "name" : "The Great Gatsby",
+  "price" : "23",
+  "imgPath" : "images/drama/TheGreatGatsby.jpg",
+  "category" : "drama",
+  "author" : "F. Scott Fitzgerald"
+}, {
+  "name" : "To Kill a Mockingbird",
+  "price" : "25",
+  "imgPath" : "images/drama/ToKilAMockingbird.jpg",
+  "category" : "drama",
+  "author" : "Harper Lee"
+}, {
+  "name" : "The Final Empire",
+  "price" : "48",
+  "imgPath" : "images/fantasy/TheFinalEmpire.jpg",
+  "category" : "fantasy",
+  "author" : "Brandon Sanderson"
+}, {
+  "name" : "Assassin's Apprentice",
+  "price" : "39",
+  "imgPath" : "images/fantasy/AssassinApprentice.jpg",
+  "category" : "fantasy",
+  "author" : "Robin Hobb"
+}, {
+  "name" : "American Gods",
+  "price" : "41",
+  "imgPath" : "images/fantasy/AmericanGods.jpg",
+  "category" : "fantasy",
+  "author" : "Neil Gaiman"
+}, {
+  "name" : "The Name of The Wind",
+  "price" : "35",
+  "imgPath" : "images/fantasy/TheNameOfTheWind.jpeg",
+  "category" : "fantasy",
+  "author" : "Patrick Rothfuss"
+}, {
+  "name" : "The Chronicles of Narnia",
+  "price" : "28",
+  "imgPath" : "images/fantasy/TheChroniclesOfNarnia.jpg",
+  "category" : "fantasy",
+  "author" : "C.S. Lewis"
+}, {
+  "name" : "A Game of Thrones",
+  "price" : "36",
+  "imgPath" : "images/fantasy/AGameOfThrones.jpg",
+  "category" : "fantasy",
+  "author" : "George R. R. Martin"
+}, {
+  "name" : "Pride and Prejudice",
+  "price" : "26",
+  "imgPath" : "images/romance/PrideAndPrejudice.jpg",
+  "category" : "romance",
+  "author" : "Jane Austen"
+}, {
+  "name" : "Jane Eyre",
+  "price" : "32",
+  "imgPath" : "images/romance/JaneEyre.jpg",
+  "category" : "romance",
+  "author" : "Charlotte Bronte"
+}, {
+  "name" : "Gone with the Wind",
+  "price" : "35",
+  "imgPath" : "images/romance/GoneWithTheWind.jpg",
+  "category" : "romance",
+  "author" : "Margaret Mitchel"
+}, {
+  "name" : "Outlander",
+  "price" : "40",
+  "imgPath" : "images/romance/Outlander.jpg",
+  "category" : "romance",
+  "author" : "Diana Gabaldon"
+}, {
+  "name" : "The Notebook",
+  "price" : "38",
+  "imgPath" : "images/romance/TheNotebook.jpg",
+  "category" : "romance",
+  "author" : "Nicholas Sparks"
+}, {
+  "name" : "Me Before You",
+  "price" : "42",
+  "imgPath" : "images/romance/MeBeforeYou.jpg",
+  "category" : "romance",
+  "author" : "Jojo Moyes"
+}, {
+  "name" : "The Time Traveler's Wife",
+  "price" : "46",
+  "imgPath" : "images/romance/TheTimeTravelerWife.jpg",
+  "category" : "romance",
+  "author" : "Audrey Niffenegger"
+}, {
+  "name" : "Eleanor and Park",
+  "price" : "40",
+  "imgPath" : "images/romance/EleanorAndPark.jpg",
+  "category" : "romance",
+  "author" : "Rainbow Rowell"
+}, {
+  "name" : "Man's Search for Meaning",
+  "price" : "50",
+  "imgPath" : "images/self-improvement/ManSearchForMeaning.jpeg",
+  "category" : "self-improvement",
+  "author" : "Viktor E. Frankl"
+}, {
+  "name" : "Atomic Habits",
+  "price" : "44",
+  "imgPath" : "images/self-improvement/AtomicHabits.jpg",
+  "category" : "self-improvement",
+  "author" : "James Clear"
+}, {
+  "name" : "Thinking, Fast and Slow",
+  "price" : "42",
+  "imgPath" : "images/self-improvement/ThinkingFastAndSlow.jpg",
+  "category" : "self-improvement",
+  "author" : "Daniel Kahneman"
+}, {
+  "name" : "The Power of Now ",
+  "price" : "38",
+  "imgPath" : "images/self-improvement/ThePowerOfNow.jpg",
+  "category" : "self-improvement",
+  "author" : "Eckhart Tolle"
+}, {
+  "name" : "Daring Greatly",
+  "price" : "42",
+  "imgPath" : "images/self-improvement/DaringGreatly.jpg",
+  "category" : "self-improvement",
+  "author" : "Brene Brown"
+}, {
+  "name" : "The Four Agreements",
+  "price" : "40",
+  "imgPath" : "images/self-improvement/TheFourAgreements.jpeg",
+  "category" : "self-improvement",
+  "author" : "Don Miguel Ruiz"
+}, {
+  "name" : "The Miracle Morning",
+  "price" : "35",
+  "imgPath" : "images/self-improvement/TheMiracleMorning.jpeg",
+  "category" : "self-improvement",
+  "author" : "Hal Elrod"
+}, {
+  "name" : "The Alchemist",
+  "price" : "45",
+  "imgPath" : "images/self-improvement/TheAlchemist.jpg",
+  "category" : "self-improvement",
+  "author" : "Paul Coelho"
+}, {
+  "name" : "Moby Dick",
+  "price" : "20",
+  "imgPath" : "images/vintage/MobyDick.jpg",
+  "category" : "vintage",
+  "author" : "Herman Melville"
+}, {
+  "name" : "Wuthering Heights",
+  "price" : "29",
+  "imgPath" : "images/vintage/WutheringHeights.jpg",
+  "category" : "vintage",
+  "author" : "Emily Bronte"
+}, {
+  "name" : "Brave New World",
+  "price" : "23",
+  "imgPath" : "images/vintage/BraveNewWorld.jpg",
+  "category" : "vintage",
+  "author" : "Aldous Huxley"
+}, {
+  "name" : "The Adventures of Huckleberry Finn",
+  "price" : "30",
+  "imgPath" : "images/vintage/TheAdventuresOfHuckleberryFinn.jpg",
+  "category" : "vintage",
+  "author" : "Mark Twain"
+}, {
+  "name" : "Crime and Punishment",
+  "price" : "35",
+  "imgPath" : "images/vintage/CrimeAndPunishment.png",
+  "category" : "vintage",
+  "author" : "Fyodor Dostoevsky"
+}, {
+  "name" : "Don Quixote",
+  "price" : "26",
+  "imgPath" : "images/vintage/DonQuixote.jpg",
+  "category" : "vintage",
+  "author" : "Miguel de Cervantes"
+}, {
+  "name" : "The Divine Comedy",
+  "price" : "35",
+  "imgPath" : "images/vintage/DivineComedy.jpg",
+  "category" : "vintage",
+  "author" : "Dante Alighieri"
+}, {
+  "name" : "The Odyssey",
+  "price" : "40",
+  "imgPath" : "images/vintage/TheOdyssey.png",
+  "category" : "vintage",
+  "author" : "Homer"
 } ]
