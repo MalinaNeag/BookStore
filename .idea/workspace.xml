@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-38 Changed names for labels, buttons, choice boxes and image view items">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/DataHolderForCurrentUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/Order.java" afterDir="false" />
+    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-40 Orders are now stored in users.json">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/OrdersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/AddItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/AddItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CartPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CartPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/HomePageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/PreviousOrdersPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/PreviousOrdersPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/CartItemsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/CartItemsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/UsersList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/UsersList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/services/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/services/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/add-item-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/add-item-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/cart-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/cart-page.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +100,7 @@
       <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\images\self-improvement" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.bookstore.controllers" />
       <recent name="com.example.bookstore.model" />
     </key>
   </component>
@@ -218,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683893207284</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="BS-40 Orders are now stored in users.json">
+      <created>1684016961137</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684016961137</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +259,8 @@
     <MESSAGE value="BS-46 Implemented Catalogue Item Deletion Functionality" />
     <MESSAGE value="BS-56 Formatted folder for existing and newly added books" />
     <MESSAGE value="BS-57 Configured author field for each book" />
-    <option name="LAST_COMMIT_MESSAGE" value="BS-57 Configured author field for each book" />
+    <MESSAGE value="BS-40 Orders are now stored in users.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="BS-40 Orders are now stored in users.json" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

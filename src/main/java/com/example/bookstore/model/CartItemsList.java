@@ -22,6 +22,10 @@ public class CartItemsList {
     public static String getDetails1(int index){
         return cartItemsList.get(index).getPrice().toString()+" RON "+"    ";
     }
+
+    public static String getAuthor(int index){
+        return cartItemsList.get(index).getAuthor().toString();
+    }
     public static int getPriceItems(int index){
         int price_new;
         price_new=Integer.parseInt(cartItemsList.get(index).getPrice());
