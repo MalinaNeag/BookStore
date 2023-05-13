@@ -4,30 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/ManagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/UserController.java" afterDir="false" />
+    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-31 Add Abstract Classes; Integrate Cart with the UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CrimeBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CrimeBookPageCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CrimeBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CrimeBookPageManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/DramaBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/DramaBookPageCustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/DramaBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/DramaBookPageManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/FantasyBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/FantasyBookPageCustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/FantasyBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/FantasyBookPageManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/RomanceBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/RomanceBookPageCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/RomanceBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/RomanceBookPageManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/SelfImprovementBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/SelfImprovementBookPageCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/SelfImprovementBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/SelfImprovementBookPageManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/VintageBookPageCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/VintageBookPageCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/VintageBookPageManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/VintageBookPageManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/CartItemsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/CartItemsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/crime-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/crime-page-customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/fantasy-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/fantasy-page-customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/romance-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/romance-page-customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/NewOrdersPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/NewOrdersPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/new-orders-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/new-orders-page.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +36,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/com/example/bookstore/home-page-manager.fxml" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -77,30 +60,30 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IdeaProjects/BookStore",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/BookStore&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\src\main\resources\com\example\bookstore\img" />
@@ -159,7 +142,10 @@
       <workItem from="1683397994600" duration="26000" />
       <workItem from="1683464810246" duration="2132000" />
       <workItem from="1683995982641" duration="188000" />
-      <workItem from="1683996223020" duration="5395000" />
+      <workItem from="1683996223020" duration="7982000" />
+      <workItem from="1684004523350" duration="395000" />
+      <workItem from="1684005081187" duration="3017000" />
+      <workItem from="1684008151795" duration="355000" />
     </task>
     <task id="LOCAL-00001" summary="Updated configurations">
       <created>1683184656225</created>
@@ -224,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683893207284</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="BS-31 Add Abstract Classes; Integrate Cart with the UI">
+      <created>1684001729376</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684001729376</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +257,8 @@
     <MESSAGE value="BS-46 Implemented Catalogue Item Deletion Functionality" />
     <MESSAGE value="BS-56 Formatted folder for existing and newly added books" />
     <MESSAGE value="BS-57 Configured author field for each book" />
-    <option name="LAST_COMMIT_MESSAGE" value="BS-57 Configured author field for each book" />
+    <MESSAGE value="BS-31 Add Abstract Classes; Integrate Cart with the UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="BS-31 Add Abstract Classes; Integrate Cart with the UI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

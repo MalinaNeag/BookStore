@@ -1,7 +1,6 @@
 package com.example.bookstore.controllers;
 
 import com.example.bookstore.Main;
-
 import java.io.IOException;
 
 public class DramaBookPageManagerController extends ManagerController {
