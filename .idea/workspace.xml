@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-56 Formatted folder for existing and newly added books">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/DramaShake.jpeg" afterDir="false" />
+    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-57 Configured author field for each book">
+      <change afterPath="$PROJECT_DIR$/images/drama/1984.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/drama/Atonement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/drama/CatcherInTheRyes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/drama/TheBookThief.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/drama/TheGreatGatsby.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/drama/TheHelp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/drama/TheKiteRunner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/drama/ThePictureOfDorianGray.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/drama/ToKilAMockingbird.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fantasy/AGameOfThrones.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fantasy/AmericanGods.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fantasy/AssassinApprentice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fantasy/TheChroniclesOfNarnia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fantasy/TheFinalEmpire.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fantasy/TheNameOfTheWind.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/AddItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/AddItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/services/AddItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/services/AddItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/add-item-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/add-item-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-manager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-manager.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +81,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Cristina/OneDrive/Desktop/uni/sem2/sef/project/BookStore",
+    "last_opened_file_path": "C:/Users/Cristina/OneDrive/Desktop/uni/sem2/sef/project/nemodificat/Online-Shop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -195,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683889027634</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="BS-57 Configured author field for each book">
+      <created>1683893207284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683893207284</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +253,8 @@
     <MESSAGE value="BS-44 Integrate Catalogue Item Addition with the UI" />
     <MESSAGE value="BS-46 Implemented Catalogue Item Deletion Functionality" />
     <MESSAGE value="BS-56 Formatted folder for existing and newly added books" />
-    <option name="LAST_COMMIT_MESSAGE" value="BS-56 Formatted folder for existing and newly added books" />
+    <MESSAGE value="BS-57 Configured author field for each book" />
+    <option name="LAST_COMMIT_MESSAGE" value="BS-57 Configured author field for each book" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
