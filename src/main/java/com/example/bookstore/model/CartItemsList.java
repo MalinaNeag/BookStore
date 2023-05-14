@@ -10,12 +10,21 @@ public class CartItemsList {
             cartItemsList.add(newItem);
         }
     }
+
+    public static void removeAllItems(){
+        cartItemsList=new ArrayList<>(5);
+    }
+
     public static String getIdOfItem(int index){
         return cartItemsList.get(index).getName().toString();
     }
 
     public static String getDetails1(int index){
         return cartItemsList.get(index).getPrice().toString()+" RON "+"    ";
+    }
+
+    public static String getAuthor(int index){
+        return cartItemsList.get(index).getAuthor().toString();
     }
     public static int getPriceItems(int index){
         int price_new;
