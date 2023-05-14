@@ -59,7 +59,7 @@
       <Label fx:id="status5Label" alignment="CENTER" layoutX="731.0" layoutY="455.0" prefHeight="26.0" prefWidth="106.0" />
       <ImageView fitHeight="223.0" fitWidth="216.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@img/Vintage.jpg" />
+            <Image url="@img/PrevOrders.png" />
          </image>
       </ImageView>
       <Button fx:id="goToCartButton" layoutX="35.0" layoutY="353.0" mnemonicParsing="false" onAction="#goToCartPage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Go To Cart">
