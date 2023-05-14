@@ -1,6 +1,7 @@
 package com.example.bookstore.controllers;
 
 import com.example.bookstore.Main;
+import com.example.bookstore.model.CartItemsList;
 import com.example.bookstore.model.Item;
 import com.example.bookstore.model.ItemsList;
 import javafx.event.ActionEvent;
@@ -57,6 +58,7 @@ public abstract class UserController {
     public abstract void goToHomePage() throws IOException;
 
     public void goToSignPage(ActionEvent event) throws IOException {
+        CartItemsList.removeAllItems();
         Main m = new Main();
         m.changeScene("login-page.fxml");
     }
@@ -74,8 +76,7 @@ public abstract class UserController {
         if (item.getCategory().equals(getCategoryName())) {
             int i = itemsNb;
             itemsNb++;
-            activateStuff(i, imageViewArrayList.get(i), img, item, button1ArrayList.get(i),
-                    button2ArrayList.get(i));
+            activateStuff(i, imageViewArrayList.get(i), img, item, button1ArrayList.get(i),button2ArrayList.get(i));
         }
     }
 

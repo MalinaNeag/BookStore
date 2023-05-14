@@ -1,13 +1,11 @@
 package com.example.bookstore.controllers;
 
 import com.example.bookstore.Main;
-import com.example.bookstore.model.ItemsList;
 import com.example.bookstore.services.AddItem;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
 import javafx.stage.FileChooser;
 
 import javax.imageio.ImageIO;
@@ -79,7 +77,7 @@ public class AddItemController implements Initializable {
 
 
     @FXML
-    void uploadChoosenImage(ActionEvent event) {
+    void uploadChosenImage(ActionEvent event) {
         FileChooser fc = new FileChooser();
         fc.getExtensionFilters().add(new FileChooser.ExtensionFilter("Images", firstFile));
         f = fc.showOpenDialog(null);
@@ -88,7 +86,7 @@ public class AddItemController implements Initializable {
         File outputfile;
         try {
             BufferedImage bi = ImageIO.read(f);  // retrieve image
-            System.out.println(f.getName());
+            //System.out.println(f.getName());
             outputfile = new File("images/" + itemCategory.getValue() + "/" + f.getName());
             ImageIO.write(bi, "png", outputfile);
             imageUploaded=true;

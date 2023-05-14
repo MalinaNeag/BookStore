@@ -2,6 +2,8 @@ package com.example.bookstore.controllers;
 
 import com.example.bookstore.Main;
 import com.example.bookstore.exceptions.UsernameAlreadyExistsException;
+import com.example.bookstore.model.CartItemsList;
+import com.example.bookstore.model.DataHolderForCurrentUser;
 import com.example.bookstore.model.User;
 import com.example.bookstore.model.UsersList;
 import com.example.bookstore.services.Register;
@@ -55,9 +57,10 @@ public class LoginController implements Initializable {
         else if(role.getValue()==null) {
             wrongLogin.setText("Please fill in the role field");
         }
-        else if(UsersList.checkUserCredentials(new User(username.getText(),password.getText(),role.getValue()))) {
+        else if(UsersList.checkUserCredentials(new User(username.getText(),password.getText(),role.getValue(), null))) {
             Main m= new Main();
             if(role.getValue().equals("customer")) {
+                DataHolderForCurrentUser.setCurrentUser(new User(username.getText(), password.getText(), role.getValue()));
                 m.changeScene("home-page-customer.fxml");
             }
             else if(role.getValue().equals("manager")){
