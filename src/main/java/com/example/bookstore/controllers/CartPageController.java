@@ -126,7 +126,7 @@ public class CartPageController {
             int orderNumber=currentUser.getOrders().size();
             String orderId= orderNumber+userName;
 
-            currentUser.getOrders().add(new Order(orderId,orderDetails.toString(),"unproccesed"));
+            currentUser.getOrders().add(new Order(orderId,orderDetails.toString(),"unprocessed"));
 
             UsersList.persistUsers();
         }

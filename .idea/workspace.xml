@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PrevOrders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/Cart.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CartPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CartPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/NewOrdersPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/NewOrdersPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/cart-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/cart-page.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/new-orders-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/new-orders-page.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/previous-orders-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/previous-orders-page.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +66,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
+    "JavaMethodFindUsagesOptions.isSearchForTextOccurrences": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -74,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Online-Shop",
+    "last_opened_file_path": "C:/Users/Cristina/OneDrive/Desktop/uni/sem2/sef/project/BookStore/src/main/resources/com/example/bookstore/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,8 +89,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\BookStore\src\main\resources\com\example\bookstore\img" />
       <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\src\main\resources\com\example\bookstore\img" />
+      <recent name="D:\IdeaProjects\BookStore\src\main\resources\com\example\bookstore\img" />
       <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore" />
       <recent name="C:\Users\zapar\IdeaProjects\BookStore" />
       <recent name="C:\Users\zapar\IdeaProjects\BookStore\src" />
