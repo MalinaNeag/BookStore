@@ -23,7 +23,7 @@
                 <Font name="Cambria" size="12.0" />
             </font>
         </Button>
-        <ImageView fitHeight="270.0" fitWidth="186.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="655.0">
+        <ImageView fitHeight="206.0" fitWidth="175.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="666.0">
             <image>
                 <Image url="@img/DramaShake.jpeg" />
             </image>
@@ -96,14 +96,14 @@
                 <Font name="Cambria" size="12.0" />
             </font>
         </Button>
-        <Label fx:id="AddMessage1" layoutX="304.0" layoutY="281.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
-        <Label fx:id="AddMessage2" layoutX="476.0" layoutY="281.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
-        <Label fx:id="AddMessage3" layoutX="644.0" layoutY="281.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
-        <Label fx:id="AddMessage4" layoutX="310.0" layoutY="427.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
-        <Label fx:id="AddMessage5" layoutX="476.0" layoutY="427.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
-        <Label fx:id="AddMessage6" layoutX="644.0" layoutY="427.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
-        <Label fx:id="AddMessage7" layoutX="310.0" layoutY="577.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
-        <Label fx:id="AddMessage8" layoutX="476.0" layoutY="577.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
-        <Label fx:id="AddMessage9" layoutX="644.0" layoutY="577.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
+        <Label fx:id="AddMessage1" layoutX="304.0" layoutY="281.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
+        <Label fx:id="AddMessage2" layoutX="476.0" layoutY="281.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
+        <Label fx:id="AddMessage3" layoutX="644.0" layoutY="281.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
+        <Label fx:id="AddMessage4" layoutX="310.0" layoutY="427.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
+        <Label fx:id="AddMessage5" layoutX="476.0" layoutY="427.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
+        <Label fx:id="AddMessage6" layoutX="644.0" layoutY="427.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
+        <Label fx:id="AddMessage7" layoutX="310.0" layoutY="577.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
+        <Label fx:id="AddMessage8" layoutX="476.0" layoutY="577.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
+        <Label fx:id="AddMessage9" layoutX="644.0" layoutY="577.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
     </children>
 </AnchorPane>

@@ -1,28 +1,15 @@
 [ {
-  "username" : "client",
-  "password" : "��?����\u0013޺\u001A��J�ˈ��\u00133��P��9�@o�CϋeW�hu�(�s�+\uD894\uDE94��wM�\u0003�8\u0015m,��",
-  "role" : "customer",
-  "orders" : [ {
-    "orderId" : "0client",
-    "orderDetails" : "The Final Empire 48 RON     , The Way of Kings 60 RON     , Crime and Punishment 35 RON     , The Book Thief 55 RON     , ",
-    "orderStatus" : "unproccesed"
-  } ]
-}, {
-  "username" : "user",
-  "password" : "�pJ����\u0004s��\u000FI��pKcp�S̚j���\u0019�wz�M&4F<\u0016�w�NZ�\u001Dz�CjP�N�dg��}\u001A�R�",
-  "role" : "customer",
-  "orders" : [ {
-    "orderId" : "0user",
-    "orderDetails" : "Harry Potter And The Philosopher`s Stone, The Final Empire, The Name of The Wind, The Chronicles of Narnia, ",
-    "orderStatus" : "unproccesed"
-  }, {
-    "orderId" : "1user",
-    "orderDetails" : "Harry Potter And The Philosopher`s Stone, The Way of Kings, To Kill a Mockingbird, 1984, ",
-    "orderStatus" : "unproccesed"
-  } ]
-}, {
   "username" : "manager",
   "password" : "����\u0019�أ\u0003p�\u0007\u0007\u0003��q%\u0010�$��`��s��\u0018\u0019�l�!��\n/�2a\u0017?�f�J)��� �\u000Fn���\u001B�.B�",
   "role" : "manager",
   "orders" : [ ]
+}, {
+  "username" : "customer",
+  "password" : "�\fu��!��;xƂ�ub�\u0019\u0014����0\u001C�Q���\rF.\u0018+9T�w��'�rh�¶�oU3�>c\u001B��W\u0006��\n",
+  "role" : "customer",
+  "orders" : [ {
+    "orderId" : "0customer",
+    "orderDetails" : "Harry Potter And The Philosopher`s Stone, The Fellowship of the Ring, ",
+    "orderStatus" : "unproccesed"
+  } ]
 } ]

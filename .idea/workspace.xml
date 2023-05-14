@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-40 All order details are displayed on Cart Page, including title, author, price and total price">
+    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PrevOrders.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CartPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CartPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/NewOrdersPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/NewOrdersPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/cart-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/cart-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/new-orders-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/new-orders-page.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/previous-orders-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/previous-orders-page.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
     </list>
@@ -29,13 +32,14 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="BS-54-As-a-user-I-want-to-be-able-to-view-all-the-books-available-on-the-app" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/com/example/bookstore/home-page-manager.fxml" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Cristina/OneDrive/Desktop/uni/sem2/sef/project/BookStore/src/main/resources/com/example/bookstore",
+    "last_opened_file_path": "D:/Online-Shop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,13 +83,13 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\src\main\resources\com\example\bookstore" />
+      <recent name="D:\IdeaProjects\BookStore\src\main\resources\com\example\bookstore\img" />
       <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\src\main\resources\com\example\bookstore\img" />
       <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore" />
       <recent name="C:\Users\zapar\IdeaProjects\BookStore" />
@@ -97,10 +101,6 @@
       <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\images\crime" />
       <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\images\vintage" />
       <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\images\self-improvement" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.bookstore.controllers" />
-      <recent name="com.example.bookstore.model" />
     </key>
   </component>
   <component name="RunManager">
@@ -119,7 +119,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
@@ -146,7 +145,10 @@
       <workItem from="1683397994600" duration="26000" />
       <workItem from="1683464810246" duration="2132000" />
       <workItem from="1683995982641" duration="188000" />
-      <workItem from="1683996223020" duration="5395000" />
+      <workItem from="1683996223020" duration="7982000" />
+      <workItem from="1684004523350" duration="395000" />
+      <workItem from="1684005081187" duration="3017000" />
+      <workItem from="1684008151795" duration="355000" />
     </task>
     <task id="LOCAL-00001" summary="Updated configurations">
       <created>1683184656225</created>
@@ -211,21 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683893207284</updated>
     </task>
-    <task id="LOCAL-00010" summary="BS-40 Orders are now stored in users.json">
-      <created>1684016961137</created>
+    <task id="LOCAL-00010" summary="BS-31 Add Abstract Classes; Integrate Cart with the UI">
+      <created>1684001729376</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1684016961137</updated>
+      <updated>1684001729376</updated>
     </task>
-    <task id="LOCAL-00011" summary="BS-40 All order details are displayed on Cart Page, including title, author, price and total price">
-      <created>1684021959438</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1684021959438</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +237,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="BS-4-As-a-client-I-want-to-be-able-to-add-items-to-my-cart" />
+                        <option value="origin/BS-6-As-a-client-I-want-to-be-able-to-view-my-order-history" />
                       </list>
                     </value>
                   </entry>
@@ -265,9 +260,8 @@
     <MESSAGE value="BS-46 Implemented Catalogue Item Deletion Functionality" />
     <MESSAGE value="BS-56 Formatted folder for existing and newly added books" />
     <MESSAGE value="BS-57 Configured author field for each book" />
-    <MESSAGE value="BS-40 Orders are now stored in users.json" />
-    <MESSAGE value="BS-40 All order details are displayed on Cart Page, including title, author, price and total price" />
-    <option name="LAST_COMMIT_MESSAGE" value="BS-40 All order details are displayed on Cart Page, including title, author, price and total price" />
+    <MESSAGE value="BS-31 Add Abstract Classes; Integrate Cart with the UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="BS-31 Add Abstract Classes; Integrate Cart with the UI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
