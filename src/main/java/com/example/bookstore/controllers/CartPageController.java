@@ -63,8 +63,7 @@ public class CartPageController {
     public void initialize(){
         orderDetails= new StringBuilder();
         for(int i=0;i< CartItemsList.getItems().size();i++){
-            orderDetails.append(CartItemsList.getIdOfItem(i)).append(" ");
-            orderDetails.append(CartItemsList.getDetails1(i)).append(", ");
+            orderDetails.append(CartItemsList.getIdOfItem(i)).append(", ");
 
             if(i==0) {
                 ItemId1.setText(CartItemsList.getIdOfItem(0));

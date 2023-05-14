@@ -1,14 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.bookstore.controllers.PreviousOrdersPageController"
-            prefHeight="601.0" prefWidth="856.0">
-
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="856.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookstore.controllers.PreviousOrdersPageController">
+   <children>
+      <SplitPane layoutX="-6.0" prefHeight="601.0" prefWidth="228.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;" />
+      <Button fx:id="signOutLabel" layoutX="35.0" layoutY="301.0" mnemonicParsing="false" onAction="#goToSignPage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Sign Out">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="goToHomePageLabel" layoutX="35.0" layoutY="252.0" mnemonicParsing="false" onAction="#goToHomePage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Go To Home Page">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Button>
+      <Pane layoutX="221.0" layoutY="-8.0" prefHeight="124.0" prefWidth="636.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;">
+         <children>
+            <Label layoutX="207.0" layoutY="13.0" prefHeight="98.0" prefWidth="258.0" text="Previous orders">
+               <font>
+                  <Font name="Cambria" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label alignment="CENTER" layoutX="237.0" layoutY="166.0" prefHeight="26.0" prefWidth="95.0" style="-fx-background-color: #ef621f;" text="Order ID" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="347.0" layoutY="166.0" prefHeight="26.0" prefWidth="373.0" style="-fx-background-color: #ef621f;" text="Order Details" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="731.0" layoutY="166.0" prefHeight="26.0" prefWidth="106.0" style="-fx-background-color: #ef621f;" text="Order Status" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="order1Label" alignment="CENTER" layoutX="237.0" layoutY="210.0" prefHeight="26.0" prefWidth="95.0" />
+      <Label fx:id="order2Label" alignment="CENTER" layoutX="237.0" layoutY="265.0" prefHeight="26.0" prefWidth="95.0" />
+      <Label fx:id="order3Label" alignment="CENTER" layoutX="237.0" layoutY="327.0" prefHeight="26.0" prefWidth="95.0" />
+      <Label fx:id="order4Label" alignment="CENTER" layoutX="237.0" layoutY="392.0" prefHeight="26.0" prefWidth="95.0" />
+      <Label fx:id="order5Label" alignment="CENTER" layoutX="237.0" layoutY="455.0" prefHeight="26.0" prefWidth="95.0" />
+      <Label fx:id="orderDetails1Label" alignment="CENTER" layoutX="347.0" layoutY="210.0" prefHeight="26.0" prefWidth="373.0" />
+      <Label fx:id="orderDetails2Label" alignment="CENTER" layoutX="347.0" layoutY="265.0" prefHeight="26.0" prefWidth="373.0" />
+      <Label fx:id="orderDetails3Label" alignment="CENTER" layoutX="347.0" layoutY="327.0" prefHeight="26.0" prefWidth="373.0" />
+      <Label fx:id="orderDetails4Label" alignment="CENTER" layoutX="347.0" layoutY="392.0" prefHeight="26.0" prefWidth="373.0" />
+      <Label fx:id="orderDetails5Label" alignment="CENTER" layoutX="347.0" layoutY="455.0" prefHeight="26.0" prefWidth="373.0" />
+      <Label fx:id="status1Label" alignment="CENTER" layoutX="731.0" layoutY="210.0" prefHeight="26.0" prefWidth="106.0" />
+      <Label fx:id="status2Label" alignment="CENTER" layoutX="731.0" layoutY="265.0" prefHeight="26.0" prefWidth="106.0" />
+      <Label fx:id="status3Label" alignment="CENTER" layoutX="731.0" layoutY="327.0" prefHeight="26.0" prefWidth="106.0" />
+      <Label fx:id="status4Label" alignment="CENTER" layoutX="731.0" layoutY="379.0" prefHeight="26.0" prefWidth="106.0" />
+      <Label fx:id="status5Label" alignment="CENTER" layoutX="731.0" layoutY="455.0" prefHeight="26.0" prefWidth="106.0" />
+      <ImageView fitHeight="223.0" fitWidth="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Vintage.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="goToCartButton" layoutX="35.0" layoutY="353.0" mnemonicParsing="false" onAction="#goToCartPage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Go To Cart">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>

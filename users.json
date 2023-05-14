@@ -11,7 +11,15 @@
   "username" : "user",
   "password" : "�pJ����\u0004s��\u000FI��pKcp�S̚j���\u0019�wz�M&4F<\u0016�w�NZ�\u001Dz�CjP�N�dg��}\u001A�R�",
   "role" : "customer",
-  "orders" : [ ]
+  "orders" : [ {
+    "orderId" : "0user",
+    "orderDetails" : "Harry Potter And The Philosopher`s Stone, The Final Empire, The Name of The Wind, The Chronicles of Narnia, ",
+    "orderStatus" : "unproccesed"
+  }, {
+    "orderId" : "1user",
+    "orderDetails" : "Harry Potter And The Philosopher`s Stone, The Way of Kings, To Kill a Mockingbird, 1984, ",
+    "orderStatus" : "unproccesed"
+  } ]
 }, {
   "username" : "manager",
   "password" : "����\u0019�أ\u0003p�\u0007\u0007\u0003��q%\u0010�$��`��s��\u0018\u0019�l�!��\n/�2a\u0017?�f�J)��� �\u000Fn���\u001B�.B�",
