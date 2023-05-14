@@ -20,7 +20,7 @@
         </Button>
         <ImageView fitHeight="233.0" fitWidth="247.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@img/Cart.jpg" />
+                <Image url="@img/Cart.jpeg" />
             </image>
         </ImageView>
         <Pane layoutX="221.0" layoutY="-8.0" prefHeight="124.0" prefWidth="636.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;">

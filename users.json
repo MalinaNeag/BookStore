@@ -10,6 +10,19 @@
   "orders" : [ {
     "orderId" : "0customer",
     "orderDetails" : "Harry Potter And The Philosopher`s Stone, The Fellowship of the Ring, ",
-    "orderStatus" : "unproccesed"
+    "orderStatus" : "unprocessed"
+  } ]
+}, {
+  "username" : "user",
+  "password" : "�pJ����\u0004s��\u000FI��pKcp�S̚j���\u0019�wz�M&4F<\u0016�w�NZ�\u001Dz�CjP�N�dg��}\u001A�R�",
+  "role" : "customer",
+  "orders" : [ {
+    "orderId" : "0user",
+    "orderDetails" : "Harry Potter And The Philosopher`s Stone, The Way of Kings, Assassin's Apprentice, The Final Empire, ",
+    "orderStatus" : "unprocessed"
+  }, {
+    "orderId" : "1user",
+    "orderDetails" : "Gone with the Wind, Outlander, The Time Traveler's Wife, ",
+    "orderStatus" : "unprocessed"
   } ]
 } ]

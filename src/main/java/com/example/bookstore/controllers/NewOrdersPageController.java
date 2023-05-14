@@ -93,9 +93,12 @@ public class NewOrdersPageController extends OrdersController{
 
         for(int j=0;j< m && numberOfOrdersPerPage<5;j++) {
             User auxUser=UsersList.getUsers().get(j);
+            //System.out.println("\n\n" + auxUser.getUsername() + "\n");
             int n= auxUser.getOrders().size();
             for (int i = 0; i < n && numberOfOrdersPerPage < 5; i++) {
-                if(auxUser.getOrders().get(i).getOrderStatus().equals("unprocessed")) {
+                String status = auxUser.getOrders().get(i).getOrderStatus();
+                if(status.equals("unprocessed")) {
+                    //System.out.println("Loading order.\n");
                     numberOfOrdersPerPage++;
                     loadOrder(auxUser.getOrders().get(i), auxUser, i);
                 }
