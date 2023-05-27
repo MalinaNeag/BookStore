@@ -1,0 +1,11 @@
+.scroll-pane {
+    -fx-background-color: #ffffff;
+}
+
+.vbox {
+     -fx-background-color: #ffffff;
+}
+
+.hbox {
+    -fx-background-color: #ffdbc7;
+}
