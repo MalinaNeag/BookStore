@@ -112,31 +112,28 @@ public class CartPageController {
         m.changeScene("cart-page.fxml");
     }
     public void Checkout(ActionEvent event) throws IOException {
-        if(totalsum!=0) {
-            CheckoutMessage.setVisible(true);
-            CheckoutMessage.setText("Your order has been placed!");
-
-            User currentUser=null;
-            for(int i=0;i<UsersList.getUsers().size();i++){
-                if(DataHolderForCurrentUser.getCurrentUser().equals(UsersList.getUsers().get(i)))
-                    currentUser=UsersList.getUsers().get(i);
+        if (totalsum != 0) {
+            User currentUser = null;
+            for (int i = 0; i < UsersList.getUsers().size(); i++) {
+                if (DataHolderForCurrentUser.getCurrentUser().equals(UsersList.getUsers().get(i)))
+                    currentUser = UsersList.getUsers().get(i);
             }
 
-            String userName= currentUser.getUsername();
-            int orderNumber=currentUser.getOrders().size();
-            String orderId= orderNumber+userName;
+            String userName = currentUser.getUsername();
+            int orderNumber = currentUser.getOrders().size();
+            String orderId = orderNumber + userName;
 
-            currentUser.getOrders().add(new Order(orderId,orderDetails.toString(),"unprocessed"));
+            currentUser.getOrders().add(new Order(orderId, orderDetails.toString(), "unprocessed"));
 
             UsersList.persistUsers();
-        }
-        else
-        {
+
+            Main m = new Main();
+            m.changeScene("place-orders-page.fxml");
+        } else {
             CheckoutMessage.setVisible(true);
             CheckoutMessage.setText("Your order has NOT been placed!");
-
         }
-
     }
+
 
 }
