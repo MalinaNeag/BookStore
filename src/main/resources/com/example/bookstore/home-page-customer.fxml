@@ -8,17 +8,17 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="856.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookstore.controllers.HomePageControllerCustomer">
     <children>
         <SplitPane layoutX="-6.0" prefHeight="601.0" prefWidth="228.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;" />
-        <Button fx:id="signOut" layoutX="35.0" layoutY="301.0" mnemonicParsing="false" onAction="#goToSignPage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Sign Out">
-            <font>
-                <Font name="Cambria" size="12.0" />
-            </font>
-        </Button>
         <Button fx:id="viewPreviousOrders" layoutX="35.0" layoutY="301.0" mnemonicParsing="false" onAction="#goToPreviousOrdersPage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="View Previous Orders">
             <font>
                 <Font name="Cambria" size="12.0" />
             </font>
         </Button>
         <Button fx:id="goToCart" layoutX="35.0" layoutY="252.0" mnemonicParsing="false" onAction="#goToCartPage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Go To Cart">
+            <font>
+                <Font name="Cambria" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="signOut" layoutX="35.0" layoutY="350.0" mnemonicParsing="false" onAction="#goToSignPage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Sign Out">
             <font>
                 <Font name="Cambria" size="12.0" />
             </font>

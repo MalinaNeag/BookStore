@@ -99,8 +99,8 @@ public class NewOrdersPageController extends OrdersController{
                 String status = auxUser.getOrders().get(i).getOrderStatus();
                 if(status.equals("unprocessed")) {
                     //System.out.println("Loading order.\n");
+                    loadOrder(auxUser.getOrders().get(i), auxUser, numberOfOrdersPerPage);
                     numberOfOrdersPerPage++;
-                    loadOrder(auxUser.getOrders().get(i), auxUser, i);
                 }
             }
         }

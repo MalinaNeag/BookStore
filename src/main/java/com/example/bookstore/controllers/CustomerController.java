@@ -60,6 +60,42 @@ public abstract class CustomerController extends UserController {
             add(null);
         }};
 
+        priceArrayList = new ArrayList<>() {{
+            add(price1Label);
+            add(price2Label);
+            add(price3Label);
+            add(price4Label);
+            add(price5Label);
+            add(price6Label);
+            add(price7Label);
+            add(price8Label);
+            add(price9Label);
+        }};
+
+        titleArrayList = new ArrayList<>() {{
+            add(title1Label);
+            add(title2Label);
+            add(title3Label);
+            add(title4Label);
+            add(title5Label);
+            add(title6Label);
+            add(title7Label);
+            add(title8Label);
+            add(title9Label);
+        }};
+
+        descriptionArrayList = new ArrayList<>() {{
+            add(description1Text);
+            add(description2Text);
+            add(description3Text);
+            add(description4Text);
+            add(description5Text);
+            add(description6Text);
+            add(description7Text);
+            add(description8Text);
+            add(description9Text);
+        }};
+
         loadImages();
     }
 

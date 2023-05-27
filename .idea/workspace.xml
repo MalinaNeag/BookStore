@@ -13,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PrevOrders.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PrevOrders.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/previous-orders-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/previous-orders-page.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +25,8 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="HTTP Request" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -33,6 +34,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="BS-11-Fixing-bugs" />
+
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +65,7 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
@@ -86,8 +89,9 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.JavaFX",
     "vue.rearranger.settings.migration": "true"
+
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\BookStore\src\main\resources\com\example\bookstore\img" />
@@ -224,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684001729376</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="BS-13 Added the description for each book in the manager account.">
+      <created>1685198667940</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685198667940</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +276,8 @@
     <MESSAGE value="BS-56 Formatted folder for existing and newly added books" />
     <MESSAGE value="BS-57 Configured author field for each book" />
     <MESSAGE value="BS-31 Add Abstract Classes; Integrate Cart with the UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="BS-31 Add Abstract Classes; Integrate Cart with the UI" />
+    <MESSAGE value="BS-13 Added the description for each book in the manager account." />
+    <option name="LAST_COMMIT_MESSAGE" value="BS-13 Added the description for each book in the manager account." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
