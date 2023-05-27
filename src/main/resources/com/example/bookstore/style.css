@@ -9,3 +9,11 @@
 .hbox {
     -fx-background-color: #ffdbc7;
 }
+Text {
+    -fx-font-family: "Cambria";
+    -fx-font-size: 12px;
+}
+
+#title1Label, #title2Label, #title3Label, #title4Label, #title5Label, #title6Label, #title7Label, #title8Label, #title9Label {
+    -fx-font-weight: bold;
+}

@@ -46,6 +46,9 @@ public class AddItemController implements Initializable {
     private TextField itemAuthor;
 
     @FXML
+    private TextArea itemDescription;
+
+    @FXML
     private Button addItemButton;
 
     @FXML
@@ -110,9 +113,12 @@ public class AddItemController implements Initializable {
         else if(itemCategory.getValue()==null){
             wrongInput.setText("Please give a category!");
         }
+        else if(itemDescription.getText().isEmpty()){
+            wrongInput.setText("Please enter the book description!");
+        }
 
         else {
-            AddItem.addItem(itemName.getText(),itemPrice.getText(),f.getName(),itemCategory.getValue(), itemAuthor.getText());
+            AddItem.addItem(itemName.getText(),itemPrice.getText(),f.getName(),itemCategory.getValue(), itemAuthor.getText(), itemDescription.getText());
             wrongInput.setText("Item added successfully");
             if(itemCategory.getValue().equals("fantasy")) {
                 Main m = new Main();

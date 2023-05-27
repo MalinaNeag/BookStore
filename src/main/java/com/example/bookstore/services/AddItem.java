@@ -9,8 +9,8 @@ import java.io.File;
 import java.io.IOException;
 
 public class AddItem {
-    public static void addItem(String name, String price, String imgPath,String category, String author) throws IOException {
-        ItemsList.addItem(new Item(name,price,"images/" + category + "/" + imgPath, category, author));
+    public static void addItem(String name, String price, String imgPath,String category, String author, String description) throws IOException {
+        ItemsList.addItem(new Item(name,price,"images/" + category + "/" + imgPath, category, author, description));
         persistItems();
     }
 

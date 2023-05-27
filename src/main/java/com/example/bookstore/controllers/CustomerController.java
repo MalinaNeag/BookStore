@@ -84,6 +84,18 @@ public abstract class CustomerController extends UserController {
             add(title9Label);
         }};
 
+        descriptionArrayList = new ArrayList<>() {{
+            add(description1Text);
+            add(description2Text);
+            add(description3Text);
+            add(description4Text);
+            add(description5Text);
+            add(description6Text);
+            add(description7Text);
+            add(description8Text);
+            add(description9Text);
+        }};
+
         loadImages();
     }
 
