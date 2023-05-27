@@ -96,7 +96,7 @@ public abstract class UserController {
         if (button2 != null)
             button2.setVisible(true);
         if(price != null)
-            price.setText("Price:" + item.getPrice() + "RON");
+            price.setText(item.getPrice() + "RON");
         items.add(i, item);
     }
 }

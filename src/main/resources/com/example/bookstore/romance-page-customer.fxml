@@ -109,5 +109,15 @@
         <Label fx:id="AddMessage7" layoutX="310.0" layoutY="577.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
         <Label fx:id="AddMessage8" layoutX="476.0" layoutY="577.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
         <Label fx:id="AddMessage9" layoutX="644.0" layoutY="577.0" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f"/>
+
+        <Label fx:id="price1Label" alignment="CENTER" layoutX="345.0" layoutY="249.0" prefHeight="16.0" prefWidth="60.0" />
+        <Label fx:id="price2Label" alignment="CENTER" layoutX="512.0" layoutY="249.0" prefHeight="16.0" prefWidth="60.0" />
+        <Label fx:id="price3Label" alignment="CENTER" layoutX="681.0" layoutY="249.0" prefHeight="16.0" prefWidth="60.0" />
+        <Label fx:id="price4Label" alignment="CENTER" layoutX="345.0" layoutY="401.0" prefHeight="16.0" prefWidth="60.0" />
+        <Label fx:id="price5Label" alignment="CENTER" layoutX="512.0" layoutY="401.0" prefHeight="16.0" prefWidth="60.0" />
+        <Label fx:id="price6Label" alignment="CENTER" layoutX="681.0" layoutY="401.0" prefHeight="16.0" prefWidth="60.0" />
+        <Label fx:id="price7Label" alignment="CENTER" layoutX="345.0" layoutY="551.0" prefHeight="16.0" prefWidth="60.0" />
+        <Label fx:id="price8Label" alignment="CENTER" layoutX="512.0" layoutY="551.0" prefHeight="16.0" prefWidth="60.0" />
+        <Label fx:id="price9Label" alignment="CENTER" layoutX="681.0" layoutY="551.0" prefHeight="16.0" prefWidth="60.0" />
     </children>
 </AnchorPane>

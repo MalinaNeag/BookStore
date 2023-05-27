@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-44 Integrate Catalogue Item Addition with the UI">
+    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-14 Implemented View Details functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/ManagerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/crime-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/crime-page-customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/crime-page-manager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/crime-page-manager.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-manager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-manager.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/fantasy-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/fantasy-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/fantasy-page-manager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/fantasy-page-manager.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/romance-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/romance-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/romance-page-manager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/romance-page-manager.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-manager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-manager.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-manager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-manager.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684001729376</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="BS-14 Implemented View Details functionality">
+      <created>1685177023168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685177023168</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +275,8 @@
     <MESSAGE value="BS-56 Formatted folder for existing and newly added books" />
     <MESSAGE value="BS-57 Configured author field for each book" />
     <MESSAGE value="BS-31 Add Abstract Classes; Integrate Cart with the UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="BS-31 Add Abstract Classes; Integrate Cart with the UI" />
+    <MESSAGE value="BS-14 Implemented View Details functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="BS-14 Implemented View Details functionality" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
