@@ -43,6 +43,8 @@ public abstract class UserController {
     protected ImageView image9;
     @FXML
     protected Label price1Label,price2Label,price3Label,price4Label,price5Label,price6Label,price7Label,price8Label,price9Label;
+    @FXML
+    protected Label title1Label, title2Label, title3Label, title4Label, title5Label, title6Label, title7Label, title8Label, title9Label;
 
 
     protected ArrayList<Item> items = new ArrayList<>(9);
@@ -56,6 +58,7 @@ public abstract class UserController {
     protected ArrayList<Button> button1ArrayList;
     protected ArrayList<Button> button2ArrayList;
     protected ArrayList<Label> priceArrayList;
+    protected ArrayList<Label> titleArrayList;
 
 
     public abstract void initialize();
@@ -81,12 +84,12 @@ public abstract class UserController {
         if (item.getCategory().equals(getCategoryName())) {
             int i = itemsNb;
             itemsNb++;
-            activateStuff(i, imageViewArrayList.get(i), img, item, button1ArrayList.get(i),button2ArrayList.get(i),priceArrayList.get(i));
+            activateStuff(i, imageViewArrayList.get(i), img, item, button1ArrayList.get(i), button2ArrayList.get(i), priceArrayList.get(i), titleArrayList.get(i));
         }
     }
 
     protected void activateStuff(int i, ImageView imageView, Image img, Item item,
-                                 Button button1, Button button2, Label price) {
+                                 Button button1, Button button2, Label price, Label title) {
         if (imageView != null) {
             imageView.setImage(img);
             imageView.setVisible(true);
@@ -97,6 +100,8 @@ public abstract class UserController {
             button2.setVisible(true);
         if(price != null)
             price.setText(item.getPrice() + "RON");
+        if(title != null)
+            title.setText(item.getName());
         items.add(i, item);
     }
 }
