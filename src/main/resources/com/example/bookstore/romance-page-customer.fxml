@@ -66,6 +66,7 @@
                                 </HBox>
                                 <HBox spacing="5.0">
                                     <Label fx:id="price1Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Label fx:id="AddMessage1" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                                     <Region HBox.hgrow="ALWAYS" />
                                 </HBox>
                                 <Text fx:id="description1Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
@@ -89,6 +90,7 @@
                                 </HBox>
                                 <HBox spacing="5.0">
                                     <Label fx:id="price2Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Label fx:id="AddMessage2" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                                     <Region HBox.hgrow="ALWAYS" />
                                 </HBox>
                                 <Text fx:id="description2Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
@@ -112,6 +114,7 @@
                                 </HBox>
                                 <HBox spacing="5.0">
                                     <Label fx:id="price3Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Label fx:id="AddMessage3" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                                     <Region HBox.hgrow="ALWAYS" />
                                 </HBox>
                                 <Text fx:id="description3Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
@@ -135,6 +138,7 @@
                                 </HBox>
                                 <HBox spacing="5.0">
                                     <Label fx:id="price4Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Label fx:id="AddMessage4" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                                     <Region HBox.hgrow="ALWAYS" />
                                 </HBox>
                                 <Text fx:id="description4Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
@@ -158,6 +162,7 @@
                                 </HBox>
                                 <HBox spacing="5.0">
                                     <Label fx:id="price5Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Label fx:id="AddMessage5" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                                     <Region HBox.hgrow="ALWAYS" />
                                 </HBox>
                                 <Text fx:id="description5Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
@@ -181,6 +186,7 @@
                                 </HBox>
                                 <HBox spacing="5.0">
                                     <Label fx:id="price6Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Label fx:id="AddMessage6" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                                     <Region HBox.hgrow="ALWAYS" />
                                 </HBox>
                                 <Text fx:id="description6Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
@@ -204,6 +210,7 @@
                                 </HBox>
                                 <HBox spacing="5.0">
                                     <Label fx:id="price7Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Label fx:id="AddMessage7" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                                     <Region HBox.hgrow="ALWAYS" />
                                 </HBox>
                                 <Text fx:id="description7Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
@@ -227,6 +234,7 @@
                                 </HBox>
                                 <HBox spacing="5.0">
                                     <Label fx:id="price8Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Label fx:id="AddMessage8" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                                     <Region HBox.hgrow="ALWAYS" />
                                 </HBox>
                                 <Text fx:id="description8Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
@@ -250,6 +258,7 @@
                                 </HBox>
                                 <HBox spacing="5.0">
                                     <Label fx:id="price9Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Label fx:id="AddMessage9" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                                     <Region HBox.hgrow="ALWAYS" />
                                 </HBox>
                                 <Text fx:id="description9Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />

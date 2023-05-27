@@ -116,55 +116,55 @@ public abstract class CustomerController extends UserController {
 
     public void addItemToCart1() {
         AddMessage1.setVisible(true);
-        AddMessage1.setText("Added successfully");
+        AddMessage1.setText("Added to cart");
         CartItemsList.add(items.get(0));
     }
 
     public void addItemToCart2() {
         AddMessage2.setVisible(true);
-        AddMessage2.setText("Added successfully");
+        AddMessage2.setText("Added to cart");
         CartItemsList.add(items.get(1));
     }
 
     public void addItemToCart3() {
         AddMessage3.setVisible(true);
-        AddMessage3.setText("Added successfully");
+        AddMessage3.setText("Added to cart");
         CartItemsList.add(items.get(2));
     }
 
     public void addItemToCart4() {
         AddMessage4.setVisible(true);
-        AddMessage4.setText("Added successfully");
+        AddMessage4.setText("Added to cart");
         CartItemsList.add(items.get(3));
     }
 
     public void addItemToCart5() {
         AddMessage5.setVisible(true);
-        AddMessage5.setText("Added successfully");
+        AddMessage5.setText("Added to cart");
         CartItemsList.add(items.get(4));
     }
 
     public void addItemToCart6() {
         AddMessage6.setVisible(true);
-        AddMessage6.setText("Added successfully");
+        AddMessage6.setText("Added to cart");
         CartItemsList.add(items.get(5));
     }
 
     public void addItemToCart7() {
         AddMessage7.setVisible(true);
-        AddMessage7.setText("Added successfully");
+        AddMessage7.setText("Added to cart");
         CartItemsList.add(items.get(6));
     }
 
     public void addItemToCart8() {
         AddMessage8.setVisible(true);
-        AddMessage8.setText("Added successfully");
+        AddMessage8.setText("Added to cart");
         CartItemsList.add(items.get(7));
     }
 
     public void addItemToCart9() {
         AddMessage9.setVisible(true);
-        AddMessage9.setText("Added successfully");
+        AddMessage9.setText("Added to cart");
         CartItemsList.add(items.get(8));
     }
 

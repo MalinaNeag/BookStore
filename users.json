@@ -10,51 +10,51 @@
   "orders" : [ {
     "orderId" : "0customer",
     "orderDetails" : "Harry Potter And The Philosopher`s Stone, The Fellowship of the Ring, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   }, {
     "orderId" : "1customer",
     "orderDetails" : "The Godfather, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   }, {
     "orderId" : "2customer",
     "orderDetails" : "Harry Potter And The Philosopher`s Stone, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   }, {
     "orderId" : "3customer",
     "orderDetails" : "The Way of Kings, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   }, {
     "orderId" : "4customer",
     "orderDetails" : "The Way of Kings, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   }, {
     "orderId" : "5customer",
     "orderDetails" : "Harry Potter And The Philosopher`s Stone, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   }, {
     "orderId" : "6customer",
     "orderDetails" : "The Way of Kings, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   }, {
     "orderId" : "7customer",
     "orderDetails" : "The Way of Kings, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   }, {
     "orderId" : "8customer",
     "orderDetails" : "It Ends With Us, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   }, {
     "orderId" : "9customer",
     "orderDetails" : "In Cold Blood, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   }, {
     "orderId" : "10customer",
     "orderDetails" : "The Miracle Morning, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   }, {
     "orderId" : "11customer",
     "orderDetails" : "The Miracle Morning, Harry Potter And The Philosopher`s Stone, ",
-    "orderStatus" : "unprocessed"
+    "orderStatus" : "processed"
   } ]
 }, {
   "username" : "user",
@@ -71,6 +71,14 @@
   }, {
     "orderId" : "2user",
     "orderDetails" : "The Subtle Art, Man's Search for Meaning, Atomic Habits, ",
+    "orderStatus" : "unprocessed"
+  }, {
+    "orderId" : "3user",
+    "orderDetails" : "Harry Potter And The Philosopher`s Stone, The Way of Kings, The Fellowship of the Ring, ",
+    "orderStatus" : "unprocessed"
+  }, {
+    "orderId" : "4user",
+    "orderDetails" : "The Godfather, The Girl with the Dragon Tattoo, ",
     "orderStatus" : "unprocessed"
   } ]
 } ]

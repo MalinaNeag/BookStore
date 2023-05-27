@@ -4,109 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/PlaceOrdersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PlaceOrder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/place-orders-page.fxml" afterDir="false" />
+    <list default="true" id="433f70ec-0fb8-4517-bb21-0b012536d785" name="Changes" comment="BS-13 Added the description for each book in the customer account, moved sign out button.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CartPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CartPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PrevOrders.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PrevOrders.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/previous-orders-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/previous-orders-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/crime-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/crime-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/drama-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/fantasy-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/fantasy-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PlaceOrder.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PlaceOrder.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/romance-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/romance-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/self_improvement-page-customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-customer.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
-
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Tag Library Descriptor" />
-        <option value="HTTP Request" />
-        <option value="Class" />
-        <option value="FxmlFile" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="BS-11-Fixing-bugs" />
-
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/com/example/bookstore/home-page-manager.fxml" root0="SKIP_INSPECTION" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2P3MuGKARUFZymXVV0ERbtObFbf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
-  </component>
-
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JavaMethodFindUsagesOptions.isSearchForTextOccurrences": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IdeaProjects/BookStore/src/main/resources/com/example/bookstore/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.JavaFX",
-    "vue.rearranger.settings.migration": "true"
-
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\BookStore\src\main\resources\com\example\bookstore\img" />
-      <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\src\main\resources\com\example\bookstore\img" />
-      <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore" />
-      <recent name="C:\Users\zapar\IdeaProjects\BookStore" />
-      <recent name="C:\Users\zapar\IdeaProjects\BookStore\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\images\fantasy" />
-      <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\images\drama" />
-      <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\images\crime" />
-      <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\images\vintage" />
-      <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\images\self-improvement" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -125,162 +48,21 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="" />
-      <created>1682681539656</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1682681539656</updated>
-      <workItem from="1682681542170" duration="1041000" />
-      <workItem from="1683181077377" duration="3575000" />
-      <workItem from="1683230949083" duration="4716000" />
-      <workItem from="1683273665874" duration="9202000" />
-      <workItem from="1683285184519" duration="5504000" />
-      <workItem from="1683291660954" duration="24214000" />
-      <workItem from="1683328232566" duration="237000" />
-      <workItem from="1683328512700" duration="363000" />
-      <workItem from="1683377017913" duration="260000" />
-      <workItem from="1683397994600" duration="26000" />
-      <workItem from="1683464810246" duration="2132000" />
-      <workItem from="1683995982641" duration="188000" />
-      <workItem from="1683996223020" duration="7982000" />
-      <workItem from="1684004523350" duration="395000" />
-      <workItem from="1684005081187" duration="3017000" />
-      <workItem from="1684008151795" duration="355000" />
-      <workItem from="1685173586942" duration="7997000" />
-    </task>
-    <task id="LOCAL-00001" summary="Updated configurations">
-      <created>1683184656225</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1683184656226</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Finished Login Task">
-      <created>1683222457881</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1683222457881</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Created GUI with list view for manager">
-      <created>1683294481211</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1683294481212</updated>
-    </task>
-    <task id="LOCAL-00004" summary="BS-42 Created UI for Catalogue Item Addition">
-      <created>1683303576358</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1683303576358</updated>
-    </task>
-    <task id="LOCAL-00005" summary="BS-43 Implement Catalogue Item Addition Functionality">
-      <created>1683304452104</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1683304452104</updated>
-    </task>
-    <task id="LOCAL-00006" summary="BS-44 Integrate Catalogue Item Addition with the UI">
-      <created>1683322596093</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1683322596093</updated>
-    </task>
-    <task id="LOCAL-00007" summary="BS-46 Implemented Catalogue Item Deletion Functionality">
-      <created>1683580421842</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1683580421842</updated>
-    </task>
-    <task id="LOCAL-00008" summary="BS-56 Formatted folder for existing and newly added books">
-      <created>1683889027634</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1683889027634</updated>
-    </task>
-    <task id="LOCAL-00009" summary="BS-57 Configured author field for each book">
-      <created>1683893207284</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1683893207284</updated>
-    </task>
-    <task id="LOCAL-00010" summary="BS-31 Add Abstract Classes; Integrate Cart with the UI">
-      <created>1684001729376</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1684001729376</updated>
-    </task>
-    <task id="LOCAL-00011" summary="BS-13 Added the description for each book in the manager account.">
-      <created>1685198667940</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1685198667940</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="BS-5-As-a-client-I-want-to-be-able-to-place-orders" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updated configurations" />
-    <MESSAGE value="Finished Login Task" />
-    <MESSAGE value="View Category Task done" />
-    <MESSAGE value="BS-42 Created UI for Catalogue Item Addition" />
-    <MESSAGE value="BS-43 Implement Catalogue Item Addition Functionality" />
-    <MESSAGE value="BS-44 Integrate Catalogue Item Addition with the UI" />
-    <MESSAGE value="BS-46 Implemented Catalogue Item Deletion Functionality" />
-    <MESSAGE value="BS-56 Formatted folder for existing and newly added books" />
-    <MESSAGE value="BS-57 Configured author field for each book" />
-    <MESSAGE value="BS-31 Add Abstract Classes; Integrate Cart with the UI" />
-    <MESSAGE value="BS-13 Added the description for each book in the manager account." />
-    <option name="LAST_COMMIT_MESSAGE" value="BS-13 Added the description for each book in the manager account." />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
