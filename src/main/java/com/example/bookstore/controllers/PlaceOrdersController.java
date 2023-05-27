@@ -73,9 +73,8 @@ public class PlaceOrdersController {
         placeOrder();
     }
 
-
     private boolean isValidName(String name) {
-        return name.matches("[a-zA-Z]+");
+        return name.matches("[a-zA-Z\\s]+");
     }
 
     private boolean isValidPhoneNumber(String phoneNumber) {
