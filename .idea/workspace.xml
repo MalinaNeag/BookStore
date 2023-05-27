@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="BS-13 Added the description for each book in the manager account.">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/vintage-page-customer.fxml" afterDir="false" />
+    <list default="true" id="3eace582-cbb6-4e99-9141-ae584fe069cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/PlaceOrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PlaceOrder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/place-orders-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CartPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookstore/controllers/CartPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PrevOrders.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/img/PrevOrders.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/previous-orders-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/bookstore/previous-orders-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +33,8 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="BS-11-Fixing-bugs" />
+
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,35 +65,37 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JavaMethodFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Cristina/OneDrive/Desktop/uni/sem2/sef/project/BookStore/src/main/resources/com/example/bookstore/img&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JavaMethodFindUsagesOptions.isSearchForTextOccurrences": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IdeaProjects/BookStore/src/main/resources/com/example/bookstore/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
+
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\src\main\resources\com\example\bookstore\img" />
       <recent name="D:\IdeaProjects\BookStore\src\main\resources\com\example\bookstore\img" />
+      <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore\src\main\resources\com\example\bookstore\img" />
       <recent name="C:\Users\Cristina\OneDrive\Desktop\uni\sem2\sef\project\BookStore" />
       <recent name="C:\Users\zapar\IdeaProjects\BookStore" />
       <recent name="C:\Users\zapar\IdeaProjects\BookStore\src" />
@@ -117,6 +128,7 @@
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +156,7 @@
       <workItem from="1684004523350" duration="395000" />
       <workItem from="1684005081187" duration="3017000" />
       <workItem from="1684008151795" duration="355000" />
+      <workItem from="1685173586942" duration="7997000" />
     </task>
     <task id="LOCAL-00001" summary="Updated configurations">
       <created>1683184656225</created>
@@ -239,7 +252,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/BS-6-As-a-client-I-want-to-be-able-to-view-my-order-history" />
+                        <option value="BS-5-As-a-client-I-want-to-be-able-to-place-orders" />
                       </list>
                     </value>
                   </entry>

@@ -20,7 +20,7 @@
       </Button>
       <Pane layoutX="221.0" layoutY="-8.0" prefHeight="124.0" prefWidth="636.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;">
          <children>
-            <Label layoutX="207.0" layoutY="13.0" prefHeight="98.0" prefWidth="258.0" text="Previous orders">
+            <Label layoutX="207.0" layoutY="13.0" prefHeight="98.0" prefWidth="258.0" text="Previous Orders">
                <font>
                   <Font name="Cambria" size="36.0" />
                </font>
@@ -57,7 +57,7 @@
       <Label fx:id="status3Label" alignment="CENTER" layoutX="731.0" layoutY="327.0" prefHeight="26.0" prefWidth="106.0" />
       <Label fx:id="status4Label" alignment="CENTER" layoutX="731.0" layoutY="379.0" prefHeight="26.0" prefWidth="106.0" />
       <Label fx:id="status5Label" alignment="CENTER" layoutX="731.0" layoutY="455.0" prefHeight="26.0" prefWidth="106.0" />
-      <ImageView fitHeight="223.0" fitWidth="216.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="462.0" fitWidth="244.0" layoutX="-25.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/PrevOrders.png" />
          </image>
