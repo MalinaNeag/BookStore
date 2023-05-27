@@ -46,90 +46,217 @@
         <ScrollPane layoutX="231.0" layoutY="127.0" prefHeight="474.0" prefWidth="622.0" styleClass="scroll-pane" vbarPolicy="AS_NEEDED">
             <content>
                 <VBox spacing="40.0" styleClass="vbox">
+
                     <HBox prefHeight="150.0" prefWidth="602.0" spacing="10.0" styleClass="hbox">
                         <ImageView fx:id="image1" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" />
-                        <Button fx:id="add1" mnemonicParsing="false" onAction="#addItemToCart1" style="-fx-background-color: #ef621f;" text="Add" visible="false">
+                        <VBox alignment="TOP_LEFT" spacing="5.0">
+                            <children>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="title1Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="price1Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <Text fx:id="description1Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
+                            </children>
+                        </VBox>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="add1" mnemonicParsing="false" onAction="#addItemToCart1" prefHeight="26.0" prefWidth="50.0" style="-fx-text-fill: #000000; -fx-background-color: #ef621f;" text="+" visible="false">
                             <font>
                                 <Font name="Cambria" size="12.0" />
                             </font>
                         </Button>
-                        <Label fx:id="AddMessage1" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                     </HBox>
+
                     <HBox prefHeight="150.0" prefWidth="602.0" spacing="10.0" styleClass="hbox">
                         <ImageView fx:id="image2" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" />
-                        <Button fx:id="add2" mnemonicParsing="false" onAction="#addItemToCart2" style="-fx-background-color: #ef621f;" text="Add" visible="false">
+                        <VBox alignment="TOP_LEFT" spacing="5.0">
+                            <children>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="title2Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="price2Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <Text fx:id="description2Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
+                            </children>
+                        </VBox>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="add2" mnemonicParsing="false" onAction="#addItemToCart2" prefHeight="26.0" prefWidth="50.0" style="-fx-text-fill: #000000; -fx-background-color: #ef621f;" text="+" visible="false">
                             <font>
                                 <Font name="Cambria" size="12.0" />
                             </font>
                         </Button>
-                        <Label fx:id="AddMessage2" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                     </HBox>
+
                     <HBox prefHeight="150.0" prefWidth="602.0" spacing="10.0" styleClass="hbox">
                         <ImageView fx:id="image3" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" />
-                        <Button fx:id="add3" mnemonicParsing="false" onAction="#addItemToCart3" style="-fx-background-color: #ef621f;" text="Add" visible="false">
+                        <VBox alignment="TOP_LEFT" spacing="5.0">
+                            <children>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="title3Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="price3Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <Text fx:id="description3Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
+                            </children>
+                        </VBox>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="add3" mnemonicParsing="false" onAction="#addItemToCart3" prefHeight="26.0" prefWidth="50.0" style="-fx-text-fill: #000000; -fx-background-color: #ef621f;" text="+" visible="false">
                             <font>
                                 <Font name="Cambria" size="12.0" />
                             </font>
                         </Button>
-                        <Label fx:id="AddMessage3" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                     </HBox>
+
                     <HBox prefHeight="150.0" prefWidth="602.0" spacing="10.0" styleClass="hbox">
                         <ImageView fx:id="image4" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" />
-                        <Button fx:id="add4" mnemonicParsing="false" onAction="#addItemToCart3" style="-fx-background-color: #ef621f;" text="Add" visible="false">
+                        <VBox alignment="TOP_LEFT" spacing="5.0">
+                            <children>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="title4Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="price4Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <Text fx:id="description4Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
+                            </children>
+                        </VBox>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="add4" mnemonicParsing="false" onAction="#addItemToCart4" prefHeight="26.0" prefWidth="50.0" style="-fx-text-fill: #000000; -fx-background-color: #ef621f;" text="+" visible="false">
                             <font>
                                 <Font name="Cambria" size="12.0" />
                             </font>
                         </Button>
-                        <Label fx:id="AddMessage4" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                     </HBox>
+
                     <HBox prefHeight="150.0" prefWidth="602.0" spacing="10.0" styleClass="hbox">
                         <ImageView fx:id="image5" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" />
-                        <Button fx:id="add5" mnemonicParsing="false" onAction="#addItemToCart3" style="-fx-background-color: #ef621f;" text="Add" visible="false">
+                        <VBox alignment="TOP_LEFT" spacing="5.0">
+                            <children>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="title5Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="price5Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <Text fx:id="description5Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
+                            </children>
+                        </VBox>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="add5" mnemonicParsing="false" onAction="#addItemToCart5" prefHeight="26.0" prefWidth="50.0" style="-fx-text-fill: #000000; -fx-background-color: #ef621f;" text="+" visible="false">
                             <font>
                                 <Font name="Cambria" size="12.0" />
                             </font>
                         </Button>
-                        <Label fx:id="AddMessage5" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                     </HBox>
+
                     <HBox prefHeight="150.0" prefWidth="602.0" spacing="10.0" styleClass="hbox">
                         <ImageView fx:id="image6" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" />
-                        <Button fx:id="add6" mnemonicParsing="false" onAction="#addItemToCart3" style="-fx-background-color: #ef621f;" text="Add" visible="false">
+                        <VBox alignment="TOP_LEFT" spacing="5.0">
+                            <children>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="title6Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="price6Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <Text fx:id="description6Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
+                            </children>
+                        </VBox>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="add6" mnemonicParsing="false" onAction="#addItemToCart6" prefHeight="26.0" prefWidth="50.0" style="-fx-text-fill: #000000; -fx-background-color: #ef621f;" text="+" visible="false">
                             <font>
                                 <Font name="Cambria" size="12.0" />
                             </font>
                         </Button>
-                        <Label fx:id="AddMessage6" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                     </HBox>
+
                     <HBox prefHeight="150.0" prefWidth="602.0" spacing="10.0" styleClass="hbox">
                         <ImageView fx:id="image7" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" />
-                        <Button fx:id="add7" mnemonicParsing="false" onAction="#addItemToCart3" style="-fx-background-color: #ef621f;" text="Add" visible="false">
+                        <VBox alignment="TOP_LEFT" spacing="5.0">
+                            <children>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="title7Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="price7Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <Text fx:id="description7Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
+                            </children>
+                        </VBox>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="add7" mnemonicParsing="false" onAction="#addItemToCart7" prefHeight="26.0" prefWidth="50.0" style="-fx-text-fill: #000000; -fx-background-color: #ef621f;" text="+" visible="false">
                             <font>
                                 <Font name="Cambria" size="12.0" />
                             </font>
                         </Button>
-                        <Label fx:id="AddMessage7" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                     </HBox>
+
                     <HBox prefHeight="150.0" prefWidth="602.0" spacing="10.0" styleClass="hbox">
                         <ImageView fx:id="image8" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" />
-                        <Button fx:id="add8" mnemonicParsing="false" onAction="#addItemToCart3" style="-fx-background-color: #ef621f;" text="Add" visible="false">
+                        <VBox alignment="TOP_LEFT" spacing="5.0">
+                            <children>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="title8Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="price8Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <Text fx:id="description8Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
+                            </children>
+                        </VBox>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="add8" mnemonicParsing="false" onAction="#addItemToCart8" prefHeight="26.0" prefWidth="50.0" style="-fx-text-fill: #000000; -fx-background-color: #ef621f;" text="+" visible="false">
                             <font>
                                 <Font name="Cambria" size="12.0" />
                             </font>
                         </Button>
-                        <Label fx:id="AddMessage8" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                     </HBox>
+
                     <HBox prefHeight="150.0" prefWidth="602.0" spacing="10.0" styleClass="hbox">
                         <ImageView fx:id="image9" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" />
-                        <Button fx:id="add9" mnemonicParsing="false" onAction="#addItemToCart3" style="-fx-background-color: #ef621f;" text="Add" visible="false">
+                        <VBox alignment="TOP_LEFT" spacing="5.0">
+                            <children>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="title9Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <HBox spacing="5.0">
+                                    <Label fx:id="price9Label" alignment="CENTER_LEFT" prefHeight="16.0" />
+                                    <Region HBox.hgrow="ALWAYS" />
+                                </HBox>
+                                <Text fx:id="description9Text" textAlignment="JUSTIFY" wrappingWidth="450.0" />
+                            </children>
+                        </VBox>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="add9" mnemonicParsing="false" onAction="#addItemToCart9" prefHeight="26.0" prefWidth="50.0" style="-fx-text-fill: #000000; -fx-background-color: #ef621f;" text="+" visible="false">
                             <font>
                                 <Font name="Cambria" size="12.0" />
                             </font>
                         </Button>
-                        <Label fx:id="AddMessage9" prefHeight="18.0" prefWidth="100.0" textFill="#ef621f" />
                     </HBox>
                 </VBox>
             </content>
         </ScrollPane>
+
     </children>
 </AnchorPane>
 
