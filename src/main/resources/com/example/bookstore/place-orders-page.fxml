@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="856.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookstore.controllers.PlaceOrdersController">
+    <children>
+        <SplitPane layoutX="-6.0" prefHeight="601.0" prefWidth="228.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;" />
+        <Button fx:id="signOut" layoutX="35.0" layoutY="353.0" mnemonicParsing="false" onAction="#goToSignPage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Sign Out">
+            <font>
+                <Font name="Cambria" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="viewPreviousOrders" layoutX="35.0" layoutY="301.0" mnemonicParsing="false" onAction="#goToPreviousOrdersPage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="View Previous Orders">
+            <font>
+                <Font name="Cambria" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="goToHome" layoutX="35.0" layoutY="252.0" mnemonicParsing="false" onAction="#goToHomePage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Go To Home Page">
+            <font>
+                <Font name="Cambria" size="12.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="228.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/PlaceOrder.jpg" />
+            </image>
+        </ImageView>
+        <Pane layoutX="221.0" layoutY="-8.0" prefHeight="124.0" prefWidth="636.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;">
+            <children>
+                <Label alignment="CENTER" layoutX="-2.0" layoutY="13.0" prefHeight="98.0" prefWidth="636.0" text="Place Order">
+                    <font>
+                        <Font name="Cambria" size="36.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Label layoutX="307.0" layoutY="238.0" text="Name:">
+            <font>
+                <Font name="Cambria" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nameTextField" layoutX="472.0" layoutY="234.0" prefWidth="200.0" />
+
+        <Label layoutX="307.0" layoutY="282.0" text="Address:">
+            <font>
+                <Font name="Cambria" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="addressTextField" layoutX="472.0" layoutY="278.0" prefWidth="200.0" />
+
+        <Label layoutX="307.0" layoutY="331.0" text="Postal Code:">
+            <font>
+                <Font name="Cambria" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="postalCodeTextField" layoutX="472.0" layoutY="327.0" prefHeight="18.0" prefWidth="200.0" />
+
+        <Label layoutX="307.0" layoutY="383.0" text="Telephone Number:">
+            <font>
+                <Font name="Cambria" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="telephoneTextField" layoutX="472.0" layoutY="378.0" prefHeight="26.0" prefWidth="200.0" />
+        <Button fx:id="submitButton" layoutX="545.0" layoutY="431.0" onAction="#handleSubmitButton" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Submit">
+            <font>
+                <Font name="Cambria" size="12.0" />
+            </font>
+        </Button>
+        <Label fx:id="successLabel" layoutX="307.0" layoutY="470.0" prefHeight="17.0" prefWidth="365.0" text="" visible="false">
+            <font>
+                <Font name="Cambria" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
