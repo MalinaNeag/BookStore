@@ -10,14 +10,14 @@ import java.io.IOException;
 
 public class AddItem {
     public static void addItem(String name, String price, String imgPath,String category, String author, String description) throws IOException {
-        ItemsList.addItem(new Item(name,price,"images/" + category + "/" + imgPath, category, author, description));
+        ItemsList.addItem(new Item(name,price,"src/main/resources/com/example/bookstore/images/" + category + "/" + imgPath, category, author, description));
         persistItems();
     }
 
     public static void persistItems() {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File("items.json"), ItemsList.getItems());
+            objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File("src/main/resources/com/example/bookstore/items.json"), ItemsList.getItems());
         } catch (IOException e) {
             e.printStackTrace();
             throw new RuntimeException();

@@ -1,378 +1,378 @@
 [ {
   "name" : "It Ends With Us",
   "price" : "52",
-  "imgPath" : "images/romance/Romance_ItEndsWithUs.jpeg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/romance/Romance_ItEndsWithUs.jpeg",
   "category" : "romance",
   "author" : "Coleen Hoover",
   "description" : " \"It Ends With Us\" is a gripping romance novel by Colleen Hoover. The story revolves around Lily, a young woman who finds herself caught in a tumultuous relationship. As she navigates the complexities of love and heartbreak, she must confront her past and make difficult choices. This emotionally charged book explores themes of love, strength, and resilience."
 }, {
   "name" : "Harry Potter And The Philosopher`s Stone",
   "price" : "40",
-  "imgPath" : "images/fantasy/Fantasy_HarryPotterAndThePhilosophersStone.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/fantasy/Fantasy_HarryPotterAndThePhilosophersStone.jpg",
   "category" : "fantasy",
   "author" : "J. K. Rowling",
   "description" : " \"Harry Potter and the Philosopher's Stone\" is the first book in the iconic Harry Potter series by J. K. Rowling. It follows the magical journey of Harry Potter, a young wizard, as he discovers his true identity and enters the enchanting world of Hogwarts School of Witchcraft and Wizardry. This captivating tale of friendship, adventure, and the battle between good and evil has captured the hearts of millions of readers worldwide."
 }, {
   "name" : "E. A. Poe",
   "price" : "40",
-  "imgPath" : "images/vintage/Vintage_EAPoe.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/vintage/Vintage_EAPoe.jpg",
   "category" : "vintage",
   "author" : "E. A. Poe",
   "description" : "\"E. A. Poe\" is a collection of works by the renowned writer Edgar Allan Poe. Known for his dark and mysterious tales, Poe's stories and poems delve into themes of horror, madness, and the macabre. This compilation includes some of his most famous works, such as \"The Raven,\" \"The Tell-Tale Heart,\" and \"The Fall of the House of Usher,\" showcasing Poe's unique storytelling and atmospheric writing style."
 }, {
   "name" : "The Subtle Art",
   "price" : "30",
-  "imgPath" : "images/self-improvement/SelfImprovement_TheSubtleArt.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/self-improvement/SelfImprovement_TheSubtleArt.jpg",
   "category" : "self-improvement",
   "author" : "Mark Manson",
   "description" : " In \"The Subtle Art of Not Giving a F*ck,\" Mark Manson presents a refreshing and unconventional approach to self-improvement. Through a combination of humor, candid advice, and thought-provoking insights, Manson challenges readers to reevaluate their values, embrace adversity, and focus on what truly matters in life. This book offers practical guidance on how to find meaning and create a more fulfilling existence."
 }, {
   "name" : "The Way of Kings",
   "price" : "60",
-  "imgPath" : "images/fantasy/TheWayOfKings.png",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/fantasy/TheWayOfKings.png",
   "category" : "fantasy",
   "author" : "Brandon Sanderson",
   "description" : "\"The Way of Kings\" is the first installment in the epic fantasy series called \"The Stormlight Archive\" by Brandon Sanderson. Set in a richly imagined world, the story follows several compelling characters as they navigate a world on the brink of war and uncover ancient secrets. With its intricate world-building, intricate plot, and engaging characters, this book has captivated fantasy enthusiasts worldwide."
 }, {
   "name" : "The Fellowship of the Ring",
   "price" : "30",
-  "imgPath" : "images/fantasy/fellowshipOfTheRing.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/fantasy/fellowshipOfTheRing.jpg",
   "category" : "fantasy",
   "author" : "J. R. R. Tolkien",
   "description" :"\"The Fellowship of the Ring\" is the first book in J.R.R. Tolkien's epic fantasy trilogy, The Lord of the Rings. The story follows Frodo Baggins, a humble hobbit, as he embarks on a perilous journey to destroy the One Ring and save Middle-earth from the dark lord Sauron. Joined by a fellowship of diverse characters, including Gandalf the wizard, Aragorn the ranger, and Legolas the elf, Frodo faces countless challenges and encounters wondrous creatures and lands. Tolkien's masterful storytelling, rich world-building, and themes of friendship, courage, and sacrifice have made this book a beloved classic of fantasy literature."
 }, {
   "name" : "The Silence of the Lambs",
   "price" : "35",
-  "imgPath" : "images/crime/SilenceOfTheLambs.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/crime/SilenceOfTheLambs.jpg",
   "category" : "crime",
   "author" : "Thomas Harris",
   "description" : "\"The Silence of the Lambs\" is a gripping crime thriller by Thomas Harris. The story revolves around Clarice Starling, a young FBI trainee, who is tasked with interviewing the brilliant psychiatrist and cannibalistic serial killer, Dr. Hannibal Lecter, in order to gain insights into the mind of another serial killer nicknamed \"Buffalo Bill.\" As Clarice delves deeper into the twisted world of these murderers, she must confront her own fears and match wits with Lecter to solve the case. Harris' intense and psychological storytelling, along with complex characters like Lecter, make this novel a suspenseful and chilling read."
 }, {
   "name" : "The Godfather",
   "price" : "45",
-  "imgPath" : "images/crime/Godfather.png",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/crime/Godfather.png",
   "category" : "crime",
   "author" : "Mario Puzo",
   "description" : " \"The Godfather\" by Mario Puzo is a classic crime novel that delves into the world of the Italian-American Mafia. The story centers around the Corleone family, led by the powerful and enigmatic Don Vito Corleone. Puzo takes readers into the dark underbelly of organized crime, exploring themes of loyalty, power, and family. Through a tale of violence, betrayal, and shifting alliances, Puzo weaves a complex narrative that captivates readers with its exploration of the Mafia's inner workings and the complex characters that inhabit this dangerous world."
 }, {
   "name" : "The Girl with the Dragon Tattoo",
   "price" : "52",
-  "imgPath" : "images/crime/TheGirlWithTheDragonTattoo.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/crime/TheGirlWithTheDragonTattoo.jpg",
   "category" : "crime",
   "author" : "Stieg Larsson",
   "description" : "\"The Girl with the Dragon Tattoo\" is the first book in the Millennium series by Stieg Larsson. The story follows journalist Mikael Blomkvist and the unconventional hacker Lisbeth Salander as they team up to investigate the disappearance of a wealthy industrialist's niece. As they delve deeper into the dark secrets of the Vanger family, they uncover a web of corruption, violence, and long-held grudges. Larsson's gripping narrative, intricate plotting, and the complex character of Lisbeth Salander, a fiercely independent and brilliant investigator, make this crime thriller a compelling and suspenseful read."
 }, {
   "name" : "The Big Sleep",
   "price" : "32",
-  "imgPath" : "images/crime/TheBigSleep.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/crime/TheBigSleep.jpg",
   "category" : "crime",
   "author" : "Raymond Chandler",
   "description" : " \"The Big Sleep\" is a hardboiled detective novel by Raymond Chandler featuring the iconic private investigator Philip Marlowe. Set in Los Angeles, the story follows Marlowe as he is hired by a wealthy and eccentric family to resolve a case involving blackmail, murder, and hidden secrets. As Marlowe digs deeper into the case, he encounters a cast of colorful and morally ambiguous characters, navigates the seedy underbelly of the city, and uncovers a web of deceit and corruption. Chandler's sharp prose, atmospheric setting, and the intriguing character of Philip Marlowe make this novel a classic of crime fiction."
 }, {
   "name" : "In Cold Blood",
   "price" : "40",
-  "imgPath" : "images/crime/InColdBlood.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/crime/InColdBlood.jpg",
   "category" : "crime",
   "author" : "Truman Capote",
   "description" : "\"In Cold Blood\" is a groundbreaking true crime novel by Truman Capote. Based on the real-life murder of the Clutter family in 1959, the book meticulously reconstructs the events leading up to the crime, the brutal murders, and the subsequent investigation and trial. Capote's immersive storytelling and attention to detail bring the case to life, exploring the motivations of the perpetrators and the impact of the crime on the small community of Holcomb, Kansas. Blurring the boundaries between fact and fiction, \"In Cold Blood\" is a chilling exploration of the dark corners of the human psyche and a gripping account of a notorious crime."
 }, {
   "name" : "The Adventures of  Sherlock Holmes",
   "price" : "28",
-  "imgPath" : "images/crime/SherlockHolmes.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/crime/SherlockHolmes.jpg",
   "category" : "crime",
   "author" : "Arthur Conan Doyle",
   "description" : "\"The Adventures of Sherlock Holmes\" is a collection of twelve detective stories featuring the legendary detective Sherlock Holmes and his loyal companion Dr. John Watson. Written by Arthur Conan Doyle, these captivating tales take readers on thrilling and puzzling adventures as Holmes uses his brilliant deductive reasoning to solve seemingly impossible mysteries. From murder investigations to stolen jewels and sinister plots, each story showcases Holmes' keen intellect, astute observations, and his signature phrase, \"Elementary, my dear Watson.\" Doyle's masterful storytelling and the dynamic relationship between Holmes and Watson have made this collection a timeless classic of crime fiction."
 }, {
   "name" : "The Maltese Falcon",
   "price" : "42",
-  "imgPath" : "images/crime/The_Maltese_Falcon.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/crime/The_Maltese_Falcon.jpg",
   "category" : "crime",
   "author" : "Dashiell Hammett",
   "description" : "\"The Maltese Falcon\" by Dashiell Hammett is a classic hardboiled detective novel. Set in San Francisco, the story follows private investigator Sam Spade as he becomes embroiled in the search for the legendary and valuable Maltese Falcon statue. Spade encounters a cast of intriguing and deceitful characters, including the seductive Brigid O'Shaughnessy and the enigmatic Joel Cairo, all of whom are willing to go to great lengths to possess the coveted Falcon. Hammett's gritty writing style, morally ambiguous characters, and labyrinthine plot make this novel a cornerstone of the crime genre."
 }, {
   "name" : "The Murder of Roger Ackroyd",
   "price" : "36",
-  "imgPath" : "images/crime/TheMurderOfRogerAckroyd.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/crime/TheMurderOfRogerAckroyd.jpg",
   "category" : "crime",
   "author" : "Agatha Christie",
   "description" : "\"The Murder of Roger Ackroyd\" is a classic whodunit mystery by Agatha Christie. Set in a quiet English village, the story is narrated by Dr. James Sheppard, who becomes entangled in the investigation of the murder of the wealthy widower Roger Ackroyd. With a limited pool of suspects, including family members and acquaintances, Christie weaves a complex web of deception and misdirection. As Sheppard teams up with the brilliant detective Hercule Poirot, they unravel secrets, uncover hidden motives, and ultimately reveal the identity of the killer. Christie's ingenious plotting and unexpected twists have cemented this novel's status as one of her most celebrated works."
 }, {
   "name" : "Gone Girl",
   "price" : "43",
-  "imgPath" : "images/crime/GoneGirl.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/crime/GoneGirl.jpg",
   "category" : "crime",
   "author" : "Gillian Flynn",
   "description" : " \"Gone Girl\" is a gripping psychological thriller by Gillian Flynn. The story revolves around Nick and Amy Dunne, a married couple whose seemingly perfect relationship takes a dark turn when Amy goes missing on their fifth wedding anniversary. As the investigation unfolds, secrets and lies come to the surface, and both Nick and Amy's versions of events are called into question. Flynn's intricate narrative, unreliable narrators, and the exploration of themes such as marriage, identity, and manipulation make this novel a thrilling and thought-provoking read. With its unexpected twists and shocking revelations, \"Gone Girl\" keeps readers on the edge of their seats until the very end."
 }, {
   "name" : "The Help",
   "price" : "33",
-  "imgPath" : "images/drama/TheHelp.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/drama/TheHelp.jpg",
   "category" : "drama",
   "author" : "Kathryn Stockett",
   "description" : "\"The Help\" by Kathryn Stockett is a compelling and thought-provoking novel set in 1960s Mississippi. The story revolves around three women: Skeeter, a young white woman who aspires to be a writer; Aibileen, an African-American maid; and Minny, Aibileen's sassy and outspoken friend. As Skeeter decides to write a book that exposes the experiences of black maids working for white families, these women form an unlikely alliance, challenging the boundaries of race and societal norms. Through their collective voice, \"The Help\" explores themes of racial discrimination, friendship, and the power of storytelling, shedding light on the injustices and struggles faced by African-Americans during the era of segregation."
 }, {
   "name" : "The Picture of Dorian Gray",
   "price" : "27",
-  "imgPath" : "images/drama/ThePictureOfDorianGray.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/drama/ThePictureOfDorianGray.jpg",
   "category" : "drama",
   "author" : "Oscar Wilde",
   "description" : " \"The Picture of Dorian Gray\" is a philosophical novel by Oscar Wilde that delves into themes of beauty, morality, and the corruption of the soul. The story follows Dorian Gray, a young man whose portrait is painted by artist Basil Hallward. As Dorian indulges in a life of hedonism and immoral behavior, his portrait ages and reflects the consequences of his actions, while Dorian himself remains eternally youthful and unblemished. Wilde's novel raises questions about the nature of art, the pursuit of pleasure, and the moral decay that can accompany a life of excess."
 }, {
   "name" : "Atonement",
   "price" : "46",
-  "imgPath" : "images/drama/Atonement.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/drama/Atonement.jpg",
   "category" : "drama",
   "author" : "Ian McEwan",
   "description" : "\"Atonement\" by Ian McEwan is a sweeping and emotionally resonant novel set against the backdrop of World War II and its aftermath. The story revolves around Briony Tallis, a young girl with a vivid imagination. When she misinterprets a series of events one fateful summer evening, it sets off a chain of devastating consequences that reverberate throughout her life and the lives of those around her. McEwan's masterful prose and exploration of guilt, forgiveness, and the power of storytelling make \"Atonement\" a profound meditation on the complexities of human relationships and the enduring impact of our choices."
 }, {
   "name" : "The Book Thief",
   "price" : "55",
-  "imgPath" : "images/drama/TheBookThief.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/drama/TheBookThief.jpg",
   "category" : "drama",
   "author" : "Markus Zusak",
   "description" : "\"The Book Thief\" is a poignant and captivating novel by Markus Zusak set during World War II in Nazi Germany. The story is narrated by Death itself, who follows the life of Liesel Meminger, a young girl who finds solace in books. As Liesel immerses herself in the power of words, she forms unlikely friendships and navigates the harsh realities of war. With its lyrical prose and memorable characters, \"The Book Thief\" explores themes of love, loss, resilience, and the transformative power of literature in the face of adversity."
 }, {
   "name" : "The Kite Runner",
   "price" : "40",
-  "imgPath" : "images/drama/TheKiteRunner.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/drama/TheKiteRunner.jpg",
   "category" : "drama",
   "author" : "Khaled Hosseini",
   "description" : " \"The Kite Runner\" is a powerful and emotionally charged novel by Khaled Hosseini that explores the complex bonds of friendship, redemption, and the aftermath of betrayal. Set in Afghanistan, the story follows Amir, a young boy from Kabul, and his relationship with Hassan, his loyal Hazara friend. Against the backdrop of a changing Afghanistan, Amir's choices and actions have far-reaching consequences that haunt him into adulthood. Through its evocative storytelling and examination of guilt, forgiveness, and the enduring search for redemption, \"The Kite Runner\" provides a poignant insight into the human condition."
 }, {
   "name" : "1984",
   "price" : "32",
-  "imgPath" : "images/drama/1984.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/drama/1984.jpg",
   "category" : "drama",
   "author" : "George Orwell",
   "description" : "\"1984\" by George Orwell is a dystopian novel that depicts a totalitarian society ruled by a repressive government known as Big Brother. Set in the fictional country of Oceania, the story follows Winston Smith, a low-ranking member of the Party who begins to question the regime's propaganda and control over information. As Winston embarks on a forbidden love affair and engages in acts of rebellion, he becomes a target of the Party's surveillance and thought police. Orwell's chilling portrayal of a surveillance state and his exploration of themes such as censorship, propaganda, and the erosion of individual freedom have made \"1984\" a timeless classic and a stark warning against the dangers of authoritarianism."
 }, {
   "name" : "The Catcher in the Rye",
   "price" : "37",
-  "imgPath" : "images/drama/CatcherInTheRyes.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/drama/CatcherInTheRyes.jpg",
   "category" : "drama",
   "author" : "J.D. Salinger",
   "description" : "\"The Catcher in the Rye\" by J.D. Salinger is a classic coming-of-age novel that follows the introspective and rebellious Holden Caulfield. Set in the 1950s, the story takes place over a few days as Holden recounts his experiences and encounters in New York City after being expelled from prep school. With its distinctive narrative voice and exploration of themes such as teenage angst, alienation, and the loss of innocence, \"The Catcher in the Rye\" has resonated with generations of readers and remains a celebrated work of literature."
 }, {
   "name" : "The Great Gatsby",
   "price" : "23",
-  "imgPath" : "images/drama/TheGreatGatsby.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/drama/TheGreatGatsby.jpg",
   "category" : "drama",
   "author" : "F. Scott Fitzgerald",
   "description" : "\"The Great Gatsby\" by F. Scott Fitzgerald is a classic American novel that captures the decadence, disillusionment, and social upheaval of the 1920s. The story is narrated by Nick Carraway, who becomes immersed in the glamorous and mysterious world of Jay Gatsby, a wealthy man known for his lavish parties and enigmatic persona. Through vivid descriptions and complex characters, Fitzgerald explores themes of wealth, love, the American Dream, and the emptiness that lies beneath the surface of privilege and excess."
 }, {
   "name" : "To Kill a Mockingbird",
   "price" : "25",
-  "imgPath" : "images/drama/ToKilAMockingbird.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/drama/ToKilAMockingbird.jpg",
   "category" : "drama",
   "author" : "Harper Lee",
   "description" : "\"To Kill a Mockingbird\" by Harper Lee is a powerful and enduring novel set in the racially charged atmosphere of 1930s Alabama. Through the eyes of Scout Finch, a young girl growing up in the fictional town of Maycomb, the story explores themes of racism, injustice, and the loss of innocence. As Scout's father, Atticus Finch, defends an innocent black man accused of a crime, the narrative exposes the deep-rooted prejudices and moral complexities of society. Lee's exploration of empathy, courage, and the power of compassion has made \"To Kill a Mockingbird\" a beloved classic and an important commentary on social issues."
 }, {
   "name" : "The Final Empire",
   "price" : "48",
-  "imgPath" : "images/fantasy/TheFinalEmpire.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/fantasy/TheFinalEmpire.jpg",
   "category" : "fantasy",
   "author" : "Brandon Sanderson",
   "description" : "\"The Final Empire\" by Brandon Sanderson is the first book in the epic fantasy series, Mistborn. Set in a world ruled by a tyrannical god-like figure, the story follows a crew of skilled thieves led by a charismatic and enigmatic Mistborn named Kelsier. As they plan an audacious heist to overthrow the oppressive regime, the narrative unfolds with intricate world-building, a unique magic system, and political intrigue. Sanderson's masterful storytelling and complex characters make \"The Final Empire\" a gripping and immersive read for fantasy enthusiasts."
 }, {
   "name" : "Assassin's Apprentice",
   "price" : "39",
-  "imgPath" : "images/fantasy/AssassinApprentice.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/fantasy/AssassinApprentice.jpg",
   "category" : "fantasy",
   "author" : "Robin Hobb",
   "description" : "\"Assassin's Apprentice\" by Robin Hobb is the first installment in the epic fantasy series, The Farseer Trilogy. The story follows FitzChivalry, a royal bastard and the apprentice to the kingdom's assassin. As Fitz navigates the treacherous world of politics, court intrigue, and secret powers, he becomes embroiled in a web of danger and discovers his own destiny. Hobb's richly developed characters, intricate plotting, and immersive world-building make \"Assassin's Apprentice\" a captivating read for fans of character-driven fantasy."
 }, {
   "name" : "American Gods",
   "price" : "41",
-  "imgPath" : "images/fantasy/AmericanGods.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/fantasy/AmericanGods.jpg",
   "category" : "fantasy",
   "author" : "Neil Gaiman",
   "description" : " \"American Gods\" by Neil Gaiman is a modern fantasy novel that weaves together mythology, folklore, and contemporary America. The story follows Shadow Moon, a recently released ex-convict who becomes entangled in a conflict between old gods and new gods. As Shadow embarks on a journey across the United States, he encounters deities from various cultures and grapples with the shifting nature of belief and power. Gaiman's masterful blend of fantasy, mystery, and social commentary makes \"American Gods\" a thought-provoking and immersive read."
 }, {
   "name" : "The Name of The Wind",
   "price" : "35",
-  "imgPath" : "images/fantasy/TheNameOfTheWind.jpeg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/fantasy/TheNameOfTheWind.jpeg",
   "category" : "fantasy",
   "author" : "Patrick Rothfuss",
   "description" : " \"The Name of the Wind\" by Patrick Rothfuss is the first book in the epic fantasy series, The Kingkiller Chronicle. It follows the life of Kvothe, a gifted musician and magician, as he recounts his extraordinary journey from a troupe of traveling performers to a renowned arcanist and adventurer. Rothfuss's lyrical prose, intricate world-building, and compelling characters make \"The Name of the Wind\" a beloved and highly acclaimed fantasy novel that captures the magic and wonder of storytelling."
 }, {
   "name" : "The Chronicles of Narnia",
   "price" : "28",
-  "imgPath" : "images/fantasy/TheChroniclesOfNarnia.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/fantasy/TheChroniclesOfNarnia.jpg",
   "category" : "fantasy",
   "author" : "C.S. Lewis",
   "description" : "\"The Chronicles of Narnia\" is a series of seven fantasy novels by C.S. Lewis. Set in the fictional realm of Narnia, the books transport readers into a world of enchantment, talking animals, mythical creatures, and epic adventures. Each book in the series explores different characters and their journeys through Narnia, interweaving themes of bravery, loyalty, sacrifice, and the eternal battle between good and evil. Lewis's imaginative storytelling and rich allegorical elements have made \"The Chronicles of Narnia\" a beloved classic of children's literature."
 }, {
   "name" : "A Game of Thrones",
   "price" : "36",
-  "imgPath" : "images/fantasy/AGameOfThrones.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/fantasy/AGameOfThrones.jpg",
   "category" : "fantasy",
   "author" : "George R. R. Martin",
   "description" : " \"A Game of Thrones\" is the first book in the epic fantasy series, A Song of Ice and Fire, by George R.R. Martin. Set in the fictional continents of Westeros and Essos, the story follows the political intrigues, power struggles, and battles for the Iron Throne among noble houses. With its complex characters, intricate plotlines, and gritty realism, \"A Game of Thrones\" has captivated readers worldwide and spawned a popular television series. Martin's masterful storytelling and vivid world-building make this book a must-read for fans of epic fantasy."
 }, {
   "name" : "Pride and Prejudice",
   "price" : "26",
-  "imgPath" : "images/romance/PrideAndPrejudice.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/romance/PrideAndPrejudice.jpg",
   "category" : "romance",
   "author" : "Jane Austen",
   "description" : " \"Pride and Prejudice\" by Jane Austen is a timeless classic in the romance genre. Set in 19th-century England, the novel follows the story of Elizabeth Bennet, a witty and independent young woman, as she navigates societal expectations, love, and personal growth. With its memorable characters, sharp social commentary, and the tumultuous relationship between Elizabeth and the proud Mr. Darcy, \"Pride and Prejudice\" is a captivating tale of romance, misunderstandings, and the power of true love."
 }, {
   "name" : "Jane Eyre",
   "price" : "32",
-  "imgPath" : "images/romance/JaneEyre.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/romance/JaneEyre.jpg",
   "category" : "romance",
   "author" : "Charlotte Bronte",
   "description" : "\"Jane Eyre\" by Charlotte Brontë is a Gothic romance novel that tells the story of the eponymous protagonist, Jane Eyre. Orphaned and mistreated as a child, Jane grows up to become a governess and finds herself falling in love with her brooding employer, Mr. Rochester. Brontë's novel explores themes of love, independence, and societal constraints, with Jane's journey to find her own voice and identity at its heart. \"Jane Eyre\" is a compelling and influential work that continues to resonate with readers."
 }, {
   "name" : "Gone with the Wind",
   "price" : "35",
-  "imgPath" : "images/romance/GoneWithTheWind.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/romance/GoneWithTheWind.jpg",
   "category" : "romance",
   "author" : "Margaret Mitchel",
   "description" : " \"Gone with the Wind\" by Margaret Mitchell is a sweeping historical romance set during the American Civil War and Reconstruction era. The novel follows Scarlett O'Hara, a strong-willed Southern belle, as she navigates love, loss, and the changing social landscape of the South. Through Scarlett's passionate and tumultuous relationships, Mitchell explores themes of survival, resilience, and the consequences of choices made in times of upheaval. \"Gone with the Wind\" is a monumental work that delves into the complexities of love and captures the spirit of a bygone era."
 }, {
   "name" : "Outlander",
   "price" : "40",
-  "imgPath" : "images/romance/Outlander.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/romance/Outlander.jpg",
   "category" : "romance",
   "author" : "Diana Gabaldon",
   "description" : " \"Outlander\" by Diana Gabaldon is a captivating blend of romance, time travel, and historical fiction. The story follows Claire Randall, a combat nurse from 1945, who mysteriously travels back in time to 18th-century Scotland. Amid the political turmoil and clan conflicts of the time, Claire finds herself torn between two men: her husband in the present and Jamie Fraser, a passionate Scottish warrior in the past. Gabaldon weaves a rich tapestry of adventure, love, and historical detail in this epic tale that has captured the hearts of readers worldwide."
 }, {
   "name" : "The Notebook",
   "price" : "38",
-  "imgPath" : "images/romance/TheNotebook.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/romance/TheNotebook.jpg",
   "category" : "romance",
   "author" : "Nicholas Sparks",
   "description" : " \"The Notebook\" by Nicholas Sparks is a heartwarming and poignant love story. Set in the 1940s, the novel follows the enduring romance between Noah Calhoun and Allie Nelson, who come from different social backgrounds. Their love is tested by societal expectations, distance, and the challenges of aging. Sparks's novel explores themes of love, destiny, and the power of memories. \"The Notebook\" is a touching and emotional tale that reminds us of the enduring power of true love."
 }, {
   "name" : "Me Before You",
   "price" : "42",
-  "imgPath" : "images/romance/MeBeforeYou.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/romance/MeBeforeYou.jpg",
   "category" : "romance",
   "author" : "Jojo Moyes",
   "description" : "\"Me Before You\" by Jojo Moyes is a heart-rending romance that explores the unlikely relationship between Louisa Clark, a young woman struggling to find her purpose in life, and Will Traynor, a successful businessman who becomes paralyzed after an accident. As Louisa becomes Will's caregiver, an unexpected bond forms between them, challenging their perspectives on love, life, and the choices we make. Moyes' novel delves into themes of compassion, sacrifice, and the pursuit of happiness, offering a poignant and thought-provoking story that will tug at your heartstrings."
 }, {
   "name" : "The Time Traveler's Wife",
   "price" : "46",
-  "imgPath" : "images/romance/TheTimeTravelerWife.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/romance/TheTimeTravelerWife.jpg",
   "category" : "romance",
   "author" : "Audrey Niffenegger",
   "description" : "\"The Time Traveler's Wife\" by Audrey Niffenegger is a unique and captivating love story that transcends time. The novel follows the lives of Henry, a librarian with a genetic disorder that causes him to involuntarily time travel, and Clare, an artist who has known Henry since childhood. As their paths intersect at various points in time, they navigate the challenges and complexities of their relationship. Niffenegger weaves a tale of love, fate, and the power of connection, exploring how time can both unite and separate us. \"The Time Traveler's Wife\" is a mesmerizing and emotionally rich novel that will leave you contemplating the nature of love and destiny."
 }, {
   "name" : "Eleanor and Park",
   "price" : "40",
-  "imgPath" : "images/romance/EleanorAndPark.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/romance/EleanorAndPark.jpg",
   "category" : "romance",
   "author" : "Rainbow Rowell",
   "description" : "\"Eleanor and Park\" by Rainbow Rowell is a heartfelt young adult romance that follows the lives of two misfit teenagers, Eleanor and Park, as they navigate the challenges of first love and the complexities of their personal lives. Set in the 1980s, the novel explores themes of friendship, family, and the power of acceptance. Rowell's beautifully written story captures the innocence, vulnerability, and raw emotions of young love, making \"Eleanor and Park\" a touching and relatable read."
 }, {
   "name" : "Man's Search for Meaning",
   "price" : "50",
-  "imgPath" : "images/self-improvement/ManSearchForMeaning.jpeg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/self-improvement/ManSearchForMeaning.jpeg",
   "category" : "self-improvement",
   "author" : "Viktor E. Frankl",
   "description" : " \"Man's Search for Meaning\" by Viktor E. Frankl is a profound and influential work in the field of self-improvement. Based on Frankl's personal experiences as a Holocaust survivor, the book explores the author's concept of logotherapy, which focuses on finding meaning and purpose in life. Frankl shares his observations and reflections on human nature, suffering, and the search for existential meaning. \"Man's Search for Meaning\" offers valuable insights into the resilience of the human spirit and serves as a guide to finding meaning in the face of adversity."
 }, {
   "name" : "Atomic Habits",
   "price" : "44",
-  "imgPath" : "images/self-improvement/AtomicHabits.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/self-improvement/AtomicHabits.jpg",
   "category" : "self-improvement",
   "author" : "James Clear",
   "description" : "\"Atomic Habits\" by James Clear is a practical and insightful guide to building and breaking habits for personal and professional growth. Clear explores the power of small, incremental changes and provides actionable strategies to create positive habits and eliminate negative ones. Drawing on scientific research and real-life examples, Clear emphasizes the importance of consistency, intentionality, and mindset in the process of habit formation. \"Atomic Habits\" is a transformative book that empowers readers to make meaningful changes in their lives and achieve long-lasting success."
 }, {
   "name" : "Thinking, Fast and Slow",
   "price" : "42",
-  "imgPath" : "images/self-improvement/ThinkingFastAndSlow.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/self-improvement/ThinkingFastAndSlow.jpg",
   "category" : "self-improvement",
   "author" : "Daniel Kahneman",
   "description" : " \"Thinking, Fast and Slow\" by Daniel Kahneman is a groundbreaking exploration of the two systems that drive human thinking: the fast, intuitive system and the slow, deliberate system. Kahneman, a Nobel laureate in economics, delves into the cognitive biases and heuristics that influence our decision-making processes. Drawing on decades of research, he reveals the flaws in our thinking and offers insights into how we can make better choices, manage biases, and understand human behavior. \"Thinking, Fast and Slow\" is a thought-provoking and enlightening book that challenges our assumptions about rationality and provides practical implications for personal growth and decision-making."
 }, {
   "name" : "The Power of Now ",
   "price" : "38",
-  "imgPath" : "images/self-improvement/ThePowerOfNow.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/self-improvement/ThePowerOfNow.jpg",
   "category" : "self-improvement",
   "author" : "Eckhart Tolle",
   "description" : "\"The Power of Now\" by Eckhart Tolle is a transformative guide that explores the importance of living in the present moment. Tolle invites readers to embrace the concept of mindfulness and to free themselves from the burdens of the past and worries about the future. Through practical teachings and spiritual insights, Tolle offers guidance on how to cultivate presence, inner peace, and a deeper connection with oneself and the world. \"The Power of Now\" is a spiritual classic that encourages readers to awaken to the transformative power of the present moment and find liberation from the constraints of the mind."
 }, {
   "name" : "Daring Greatly",
   "price" : "42",
-  "imgPath" : "images/self-improvement/DaringGreatly.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/self-improvement/DaringGreatly.jpg",
   "category" : "self-improvement",
   "author" : "Brene Brown",
   "description" : "\"Daring Greatly\" by Brené Brown explores the concept of vulnerability and its significance in cultivating courage, connection, and wholehearted living. Brown challenges societal perceptions of vulnerability as weakness and encourages readers to embrace vulnerability as a source of strength and authenticity. Drawing on extensive research and personal anecdotes, she examines the impact of shame and fear of judgment on our lives and offers insights on how to cultivate resilience, empathy, and meaningful relationships. \"Daring Greatly\" is a powerful and empowering book that inspires readers to embrace vulnerability and live more wholeheartedly."
 }, {
   "name" : "The Four Agreements",
   "price" : "40",
-  "imgPath" : "images/self-improvement/TheFourAgreements.jpeg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/self-improvement/TheFourAgreements.jpeg",
   "category" : "self-improvement",
   "author" : "Don Miguel Ruiz",
   "description" : "\"The Four Agreements\" by Don Miguel Ruiz presents a practical guide to personal freedom and transformation. Drawing on ancient Toltec wisdom, Ruiz outlines four principles or agreements that, when practiced, can help break self-limiting beliefs and foster personal growth. The agreements—be impeccable with your word, don't take anything personally, don't make assumptions, and always do your best—provide a framework for creating happiness, love, and fulfillment in life. \"The Four Agreements\" offers simple yet profound wisdom that can positively impact one's relationships, self-perception, and overall well-being."
 }, {
   "name" : "The Miracle Morning",
   "price" : "35",
-  "imgPath" : "images/self-improvement/TheMiracleMorning.jpeg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/self-improvement/TheMiracleMorning.jpeg",
   "category" : "self-improvement",
   "author" : "Hal Elrod",
   "description" : "\"The Miracle Morning\" by Hal Elrod is a practical guide to transforming your mornings and creating a fulfilling and productive life. Elrod introduces the concept of the Miracle Morning, a morning routine that combines six practices—silence, affirmations, visualization, exercise, reading, and scribing—to enhance personal development and set a positive tone for the day. By incorporating these practices into your morning routine, you can boost your energy, increase focus, and cultivate habits that align with your goals. \"The Miracle Morning\" provides actionable strategies to create a morning ritual that sets you up for success in all areas of your life."
 }, {
   "name" : "The Alchemist",
   "price" : "45",
-  "imgPath" : "images/self-improvement/TheAlchemist.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/self-improvement/TheAlchemist.jpg",
   "category" : "self-improvement",
   "author" : "Paul Coelho",
   "description" : "\"The Alchemist\" by Paul Coelho is a captivating novel that tells the story of Santiago, a young shepherd boy on a quest for his personal legend. Filled with symbolism and mystical elements, the book explores themes of self-discovery, following one's dreams, and finding meaning in life. Through Santiago's journey, readers are inspired to listen to their hearts, overcome obstacles, and embrace the transformative power of their own desires. \"The Alchemist\" is a timeless tale that encourages readers to pursue their dreams and discover their true purpose."
 }, {
   "name" : "Moby Dick",
   "price" : "20",
-  "imgPath" : "images/vintage/MobyDick.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/vintage/MobyDick.jpg",
   "category" : "vintage",
   "author" : "Herman Melville",
   "description" : "\"Moby Dick\" by Herman Melville is a classic work of literature that follows the story of Captain Ahab and his obsessive pursuit of the white whale, Moby Dick. Set against the backdrop of 19th-century whaling, the novel explores themes of obsession, fate, and the human struggle against nature. With its rich symbolism, philosophical musings, and vivid descriptions of the sea, \"Moby Dick\" is a complex and thought-provoking novel that delves into the depths of human nature and the mysteries of the universe."
 }, {
   "name" : "Wuthering Heights",
   "price" : "29",
-  "imgPath" : "images/vintage/WutheringHeights.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/vintage/WutheringHeights.jpg",
   "category" : "vintage",
   "author" : "Emily Bronte",
   "description" : "\"Wuthering Heights\" by Emily Bronte is a hauntingly beautiful novel that delves into themes of love, revenge, and the destructive power of passion. Set on the wild moors of Yorkshire, the story follows the tumultuous relationship between Heathcliff and Catherine Earnshaw, exploring their deep connection, societal constraints, and the consequences of their choices. Bronte's vivid portrayal of characters, intense emotions, and atmospheric setting makes \"Wuthering Heights\" a timeless literary masterpiece."
 }, {
   "name" : "Brave New World",
   "price" : "23",
-  "imgPath" : "images/vintage/BraveNewWorld.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/vintage/BraveNewWorld.jpg",
   "category" : "vintage",
   "author" : "Aldous Huxley",
   "description" : " \"Brave New World\" by Aldous Huxley is a dystopian novel that presents a futuristic society where human beings are genetically engineered, conditioned, and controlled to maintain stability and conformity. Through the story of Bernard Marx and his encounter with a Savage from a reservation, Huxley explores themes of individuality, freedom, and the dehumanizing effects of a totalitarian regime. \"Brave New World\" raises thought-provoking questions about the nature of humanity, societal control, and the pursuit of happiness."
 }, {
   "name" : "The Adventures of Huckleberry Finn",
   "price" : "30",
-  "imgPath" : "images/vintage/TheAdventuresOfHuckleberryFinn.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/vintage/TheAdventuresOfHuckleberryFinn.jpg",
   "category" : "vintage",
   "author" : "Mark Twain",
   "description" : "\"The Adventures of Huckleberry Finn\" by Mark Twain is a classic coming-of-age novel that follows the journey of Huck Finn, a young boy navigating the Mississippi River with the escaped slave Jim. Through their adventures and encounters with various characters, Twain explores themes of racism, morality, and the search for freedom. With its satirical humor, regional dialects, and social commentary, \"The Adventures of Huckleberry Finn\" is considered one of the greatest American novels, highlighting the complexities of society and the inherent goodness within individuals."
 }, {
   "name" : "Crime and Punishment",
   "price" : "35",
-  "imgPath" : "images/vintage/CrimeAndPunishment.png",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/vintage/CrimeAndPunishment.png",
   "category" : "vintage",
   "author" : "Fyodor Dostoevsky",
   "description" : " \"Crime and Punishment\" by Fyodor Dostoevsky is a psychological novel that explores the mind of its protagonist, Rodion Raskolnikov, a troubled student who commits a heinous crime and grapples with the moral and psychological consequences. Set in 19th-century St. Petersburg, the novel delves into themes of guilt, redemption, and the nature of evil. Dostoevsky's intricate characterization, philosophical insights, and examination of human motives make \"Crime and Punishment\" a profound and introspective masterpiece of Russian literature."
 }, {
   "name" : "Don Quixote",
   "price" : "26",
-  "imgPath" : "images/vintage/DonQuixote.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/vintage/DonQuixote.jpg",
   "category" : "vintage",
   "author" : "Miguel de Cervantes",
   "description" : "\"Don Quixote\" by Miguel de Cervantes is a timeless masterpiece that follows the misadventures of Don Quixote, an elderly nobleman who loses his sanity and embarks on chivalrous quests as a self-proclaimed knight-errant. Blurring the lines between reality and imagination, the novel satirizes the romantic ideals of the chivalric tales while exploring themes of heroism, illusion, and the power of literature. Cervantes' richly humorous and insightful narrative has made \"Don Quixote\" one of the most influential works in world literature."
 }, {
   "name" : "The Divine Comedy",
   "price" : "35",
-  "imgPath" : "images/vintage/DivineComedy.jpg",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/vintage/DivineComedy.jpg",
   "category" : "vintage",
   "author" : "Dante Alighieri",
   "description" : "\"The Divine Comedy\" by Dante Alighieri is an epic poem divided into three parts: Inferno, Purgatorio, and Paradiso. The poem follows Dante's journey through Hell, Purgatory, and Heaven, guided by the poet Virgil and later by his beloved Beatrice. Through vivid descriptions and allegorical symbolism, Dante explores themes of sin, redemption, and the nature of divine love. \"The Divine Comedy\" is not only a religious and philosophical work but also a literary masterpiece that profoundly influenced Western literature."
 }, {
   "name" : "The Odyssey",
   "price" : "40",
-  "imgPath" : "images/vintage/TheOdyssey.png",
+  "imgPath" : "src/main/resources/com/example/bookstore/images/vintage/TheOdyssey.png",
   "category" : "vintage",
   "author" : "Homer",
   "description" : "\"The Odyssey\" by Homer is an ancient Greek epic poem that tells the story of Odysseus's ten-year journey back to his homeland of Ithaca after the Trojan War. Filled with mythical creatures, captivating adventures, and moral dilemmas, the poem explores themes of heroism, fate, and the endurance of the human spirit. As one of the foundational works of Western literature, \"The Odyssey\" continues to captivate readers with its timeless themes and engaging storytelling."
