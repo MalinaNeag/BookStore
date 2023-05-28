@@ -98,7 +98,7 @@ public class ItemsList {
 
         //read items from json
         try {
-            items = objectMapper.readValue(Paths.get("items.json").toFile(), new TypeReference<>() {});
+            items = objectMapper.readValue(Paths.get("src/main/resources/com/example/bookstore/items.json").toFile(), new TypeReference<>() {});
         } catch (JsonParseException e) {
 
             e.printStackTrace();
