@@ -40,7 +40,7 @@ public class UsersList {
         ObjectMapper objectMapper = new ObjectMapper();
 
         try {
-            users = objectMapper.readValue(Paths.get("users.json").toFile(), new TypeReference<ArrayList<User>>() {
+            users = objectMapper.readValue(Paths.get("src/main/resources/com/example/bookstore/users.json").toFile(), new TypeReference<ArrayList<User>>() {
             });
         }catch(JsonParseException e){
 
@@ -51,7 +51,7 @@ public class UsersList {
     public static void persistUsers() {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File("users.json"), UsersList.getUsers());
+            objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File("src/main/resources/com/example/bookstore/users.json"), UsersList.getUsers());
         } catch (IOException e) {
             e.printStackTrace();
             throw new RuntimeException();

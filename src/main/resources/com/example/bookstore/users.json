@@ -55,6 +55,10 @@
     "orderId" : "11customer",
     "orderDetails" : "The Miracle Morning, Harry Potter And The Philosopher`s Stone, ",
     "orderStatus" : "processed"
+  }, {
+    "orderId" : "12customer",
+    "orderDetails" : "The Silence of the Lambs, The Godfather, ",
+    "orderStatus" : "processed"
   } ]
 }, {
   "username" : "user",
@@ -81,4 +85,9 @@
     "orderDetails" : "The Godfather, The Girl with the Dragon Tattoo, ",
     "orderStatus" : "unprocessed"
   } ]
+}, {
+  "username" : "new",
+  "password" : "\u0003\u000F��JG���\u0017���\u0018�*xp\u001D\u0018q��ǩ�M+�����<ək��\u0007�S�\u000E~�d\u000F�\u001C�s��\u001FϜ�$B\u0011�",
+  "role" : "customer",
+  "orders" : [ ]
 } ]
