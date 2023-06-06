@@ -11,7 +11,7 @@
          <items>
             <ImageView fitHeight="350.0" fitWidth="390.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@img/BookStore2.png" />
+                  <Image url="@images_fxmlPages/BookStore2.png" />
                </image>
             </ImageView>
          </items>

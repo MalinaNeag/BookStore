@@ -25,7 +25,7 @@
         </Button>
         <ImageView fitHeight="223.0" fitWidth="216.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@img/BookStore2.png" />
+                <Image url="@images_fxmlPages/BookStore2.png" />
             </image>
         </ImageView>
         <Pane layoutX="221.0" layoutY="-8.0" prefHeight="124.0" prefWidth="636.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;">
@@ -52,32 +52,32 @@
             <children>
                 <ImageView fitHeight="116.0" fitWidth="186.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@img/FantasyCategory.jpeg" />
+                        <Image url="@images_fxmlPages/FantasyCategory.jpeg" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="161.0" fitWidth="169.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
                     <image>
-                        <Image url="@img/CrimeCategory.jpeg" />
+                        <Image url="@images_fxmlPages/CrimeCategory.jpeg" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="148.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
                     <image>
-                        <Image url="@img/DramaCategory.jpeg" />
+                        <Image url="@images_fxmlPages/DramaCategory.jpeg" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="154.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
                     <image>
-                        <Image url="@img/VintageCategory.jpeg" />
+                        <Image url="@images_fxmlPages/VintageCategory.jpeg" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="144.0" fitWidth="297.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
                     <image>
-                        <Image url="@img/SelfImprovementCategory.jpeg" />
+                        <Image url="@images_fxmlPages/SelfImprovementCategory.jpeg" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="148.0" fitWidth="177.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
                     <image>
-                        <Image url="@img/RomanceCategory.jpeg" />
+                        <Image url="@images_fxmlPages/RomanceCategory.jpeg" />
                     </image>
                 </ImageView>
                 <Button fx:id="FantasyCategory" mnemonicParsing="false" onAction="#goToFantasyPage" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #ef621f; -fx-text-fill: #000000;" text="Fantasy" GridPane.rowIndex="1">

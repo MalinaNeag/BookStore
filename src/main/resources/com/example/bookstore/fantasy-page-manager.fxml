@@ -35,7 +35,7 @@
     </Button>
     <ImageView fitHeight="223.0" fitWidth="216.0" pickOnBounds="true" preserveRatio="true">
         <image>
-            <Image url="@img/FantasyLand.jpeg" />
+            <Image url="@images_fxmlPages/FantasyLand.jpeg" />
         </image>
     </ImageView>
     <Pane layoutX="221.0" layoutY="-8.0" prefHeight="124.0" prefWidth="636.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;">
