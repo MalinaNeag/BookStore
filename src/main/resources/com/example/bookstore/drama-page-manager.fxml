@@ -26,7 +26,7 @@
         </Button>
         <ImageView fitHeight="236.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="650.0">
             <image>
-                <Image url="@img/DramaShake.jpeg" />
+                <Image url="@images_fxmlPages/DramaShake.jpeg" />
             </image>
         </ImageView>
         <Pane layoutX="221.0" layoutY="-8.0" prefHeight="124.0" prefWidth="636.0" style="-fx-background-color: #ffffff; -fx-border-color: #ef621f;">
