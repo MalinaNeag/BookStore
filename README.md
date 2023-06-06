@@ -9,7 +9,8 @@ Our bookstore app, named The Story Shop, is a Java application developed using J
 <div>
   <img src="src/main/resources/com/example/bookstore/images_readme/ReadmeLogin.png" alt="Image 1" width="300" />
   <img src="src/main/resources/com/example/bookstore/images_readme/ReadmeHomePage.png" alt="Image 3" width="300" />
-   <img src="src/main/resources/com/example/bookstore/images_readme/ReadmeRomance.png" alt="Image 2" width="300" />
+  <img src="src/main/resources/com/example/bookstore/images_readme/ReadmeRomance.png" alt="Image 2" width="300" />
+  <img src="src/main/resources/com/example/bookstore/images_readme/PlaceOrder.png" alt="Image 2" width="300" />
 </div>
 
 ## 💡 Features
